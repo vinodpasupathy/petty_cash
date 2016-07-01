@@ -7,6 +7,7 @@ gem 'execjs'
 gem 'therubyracer'
 gem 'carrierwave'
 gem 'bootstrap-sass', '~> 3.3.6'
+gem 'rails_12factor'
 #group :development do
 #  gem 'guard'
 #  gem 'guard-livereload'
