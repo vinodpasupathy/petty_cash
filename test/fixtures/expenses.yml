@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 
+  narrate_expense: MyString
+  voucher: MyString
+  total: MyString
+
+two:
+  type: 
+  narrate_expense: MyString
+  voucher: MyString
+  total: MyString

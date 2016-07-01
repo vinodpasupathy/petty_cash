@@ -1,0 +1,18 @@
+
+<p align = "right">
+	<% if admin? %>
+         <%= link_to users_path, :class => "btn btn-default" do %><i class="fa fa-arrow-left" aria-hidden="true"> Back</i><%end%>
+	<% elsif financier? %>
+          <%= link_to users_claim_index_financier_path, :class => "btn btn-default" do %><i class="fa fa-arrow-left" aria-hidden="true"> Back</i><%end%>
+	<% else %>
+                 <%= link_to users_single_user_index_path, :class => "btn btn-default" do %><i class="fa fa-arrow-left" aria-hidden="true"> Back</i><%end%>
+	<%end %>
+
+</p>	
+
+
+<center>
+
+	<%= image_tag @ex.voucher, :width => "20%", :height => "20%" %>
+
+</center>

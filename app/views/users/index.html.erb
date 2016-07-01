@@ -1,0 +1,162 @@
+	<center>
+
+			<div style="font-family: tahoma">
+
+		<h3>Balance Sheet for the month of <%= Date.today.strftime("%B") %></h3>
+<br> <body>
+
+		<% cn=[]; %>
+		<% exp=[] %>
+
+		<% @debit.each{|i| cn<<i.amount.to_i; exp<<i.total_expenses unless i.total_expenses.nil?} %>
+		<% amt = cn.sum %>
+		<% tot_exp = exp.sum %>
+
+
+	<table border="2">
+<tr>
+<th>Date</th>
+<th>Received Amount</th>
+<th>Expense</th>
+<th>Balance in Hand</th>
+<th>Opening Balance</th>
+</tr>
+
+<%opn_bal=0%>
+<tr>
+<td><%= Date.today %></td>
+<!--td data-toggle="modal" data-target="#myModal" style = cursor:pointer; align = "right"--><td align = "right"><%= a = amt %></td>
+
+<td  align = "right"><%= b = tot_exp %></td>
+<% g = a-b %>
+<td  align = "right"><%= g %></td>
+<%if Date.current.end_of_month %>
+<%opn_bal << g%>
+<td  align = "right"><%= opn_bal.to_i %></td>
+<%else%>
+<%opn_bal = 0%>
+<td  align = "right"><%= opn_bal %></td>
+<%end%>
+
+</tr>
+
+</table>
+
+<br><br>
+
+<%= form_for :expense, :url => {:controller => "users", :action => "approve_claim" } do |exp| %>
+
+
+<h4 align = "center"> Claims to be Approved</h4>
+<br>
+<table border = "2">
+	<tr>
+		<th>Date</th>
+		<th>Claimed By</th>
+		<th>Expense Type</th>
+		<th width = "160px">Expense Narration</th>
+		<th width = "50px">Bill</th>
+		<th>Claimed Amount</th>
+		<!--th>Approved Amount</th-->
+		<th>Claim status</th>
+                <th colspan="3" ><center> Action</center></th>
+
+	</tr>
+
+	<% if @expense1.blank? %>
+	<table><th>No records to display</th></table>
+	<% else %>
+
+	<%tot_amt=[]%>
+
+
+	<% @expense1.each do |i| %>
+	<tr>
+		<td><%= i.date %></td>
+		<td><%= i.claimed_by%></td>
+		<td><%= i.expense_type %></td>
+	    <td><%= i.narrate_expense %></td>
+
+	    <% if not i.voucher.blank? %>
+	    <td><%= link_to users_show_image_path(i) do %><i class="fa fa-eye" aria-hidden="true"> View</i><%end%>
+	    <% else %>
+	    <td>No Bill</td>
+	    <% end %>
+
+    	<td align="right"><%= i.total %></td>
+      <% tot_amt << i.total.to_i %>	
+
+    	<!--td align="right"><-%=  i.approved_amount.to_i %></td>
+                           <-% tot_amt << i.approved_amount.to_i %-->
+    	<td><%= i.claim_status %></td>
+       <td align="center"><%= check_box_tag "expense_ids[]", i.id %></td>
+
+	</tr>
+
+	<% end %>
+<tr><td>Total</td><td colspan='5' align="right"><%= tot_amt.sum %></td></tr>
+    <% end %>
+
+</table>
+
+<br>
+
+<div>
+	<%= exp.button "Approve", action: "approve_claim", :name => "commit", :value => "approve", :class => "btn btn-success" %>
+	<%= exp.button "Decline", action: "decline_claim", :name => "commit", :value => "decline", :class => "btn btn-danger" %>
+</div>
+
+<br>
+
+<!--div><-%= exp.button "Approve on condition", :name => "commit", :value => "approve_on_condition", :class => "btn btn-warning"%->
+</div-->
+
+<br>
+
+	<!--%= exp.button "Pay now", :name => "commit", :value => "pay_now", :class => "btn btn-success" %-->
+	<!--%= exp.button "Pay later", :name => "commit", :value => "pay_later", :class => "btn btn-warning" %-->
+
+
+
+<% end %>
+
+
+  <div style="color: Black;">
+
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Debit Summary for the month of <%= Date.today.strftime("%B") %></h4>
+        </div>
+        <div class="modal-body">
+        	<table>
+        	<tr>
+        		<th>Date</th>
+        		<th>Amount</th>
+        	</tr>
+          <% @debit.each do |i| %>
+          <tr><td><%= i.date  %></td><td></td>
+              <td><%= i.amount %></td>
+          </tr>
+          <%end%>
+      </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn 	btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+</div>
+
+</div>
+</body>
+</div>
+
+</center>

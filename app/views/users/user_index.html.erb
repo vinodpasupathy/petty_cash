@@ -1,0 +1,55 @@
+<center>
+
+	<div style="font-family: Tahoma">
+<body>
+<div style="width:80%;">
+<table border="2">
+		<h3>Active Users</h3>
+<tr>
+<th>Name</th>
+<th>Email</th>
+<th>Phone</th>
+<th>Password</th>
+<th>Role</th>
+<th > Action</th>
+</tr>
+<% @user.each do|i|%>
+<tr>
+<td><%= i.name%></td>
+<td><%= i.email%></td>
+<td><%= i.phone%></td>
+<td><%= i.password%></td>
+<td><%= i.role %></td>
+<!--td><-%= link_to "Remove", action: "user_status", id: i.id, :value => "Turn Inactive", :class => "btn btn-info" %></td></tr-->
+<td><%= link_to action: "user_status",:id=> i.id, :value => "Turn Inactive",:title => 'Remove', :rel => 'tooltip' do %><i class="fa fa-ban" aria-hidden="true"> Remove</i><%end%></td></tr>
+<%end%>
+</table>
+
+<br><br>
+
+<table border="2">
+		<h3>Inactive Users</h3>
+<tr>
+<th>Name</th>
+<th>Email</th>
+<th>Phone</th>
+<th>Password</th>
+<th>Role</th>
+<th > Action</th>
+</tr>
+<% @user1.each do|i|%>
+<tr>
+<td><%= i.name%></td>
+<td><%= i.email%></td>
+<td><%= i.phone%></td>
+<td><%= i.password%></td>
+<td><%= i.role %></td>
+<!--td><-%= link_to "Add", action: "user_status", id: i.id, :value => "Turn active", :class => "btn btn-info" %></td></tr-->
+<td><%= link_to action: "user_status",:id=> i.id, :value => "Turn active",:title => 'Add', :rel => 'tooltip' do %><i class="fa fa-smile-o" aria-hidden="true"> Add</i><%end%></td></tr>
+<%end%>
+</table>
+</div>
+</body>
+</div>
+
+</center>

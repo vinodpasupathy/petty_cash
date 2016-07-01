@@ -1,0 +1,47 @@
+<center>
+
+	<div style="font-family: Tahoma">
+<body>
+		<% @u = User.find(session[:user_id]).name %>
+		<% @expense = Expense.where(:claimed_by => @u) %>
+		<% @expense1 = @expense.where(:claim_status => nil).order("date ASC")%>
+
+<h4 align = "center"> Recent Claims </h4><br>
+<table border = "2">
+	<tr>
+		<th>Date</th>
+		<th>Claimed By</th>
+		<th>Expense Type</th>
+		<th width="160px">Expense Narration</th>
+		<th width="50px">Bill</th>
+		<th>Total cost</th>
+               <th colspan="3" ><center>Actions</center></th>
+	</tr>
+	<% @expense1.each do |i| %>
+	<tr>
+		<td><%= i.date %></td>
+		<td><%= i.claimed_by%></td>
+		<td><%= i.expense_type %></td>
+	    <td><%= i.narrate_expense %></td>
+
+	    <% if not i.voucher.blank? %>
+        <td><%= link_to users_show_image_path(i) do %><i class="fa fa-eye" aria-hidden="true"> View</i><%end%>
+	    <% else %>
+	    <td>No Bill</td>
+	    <% end %>
+
+    	<td align="right"><%= i.total %></td>
+
+      	<td><%= link_to users_edit_claim_path(:id => i.id) do%><i class="fa fa-pencil" aria-hidden="true"> Edit</i><%end%></td>
+            <td><!--%= link_to 'Delete', users_delete_claim_path(i), :method=>"delete_claim", id: i.id, data: { confirm: "Are you sure you want to delete this claim?" } %-->
+<center><%= link_to image_tag("/assets/trash1.png", height: '20', width: '20',:class=>"img-circle",:title => 'Delete', :rel => 'tooltip',:onclick=>"if (confirm('Are you sure!!!')) commentDelete(1); return false"),{:action => 'delete_claim', :id => i.id }%></center></td>
+	</tr>
+    <% end %>
+</table>
+<br>
+
+</div>
+</body>
+</div>
+
+</center>

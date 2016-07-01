@@ -1,0 +1,75 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require font-awesome
+ *= require_tree
+ *= require_self
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/*body {
+  background: image-url( "white_sand.jpeg" ) #0092ce;
+  background-size: 1180px 760px;
+  background-repeat: no-repeat;
+
+}*/
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #2c5463;
+    font-family: tahoma;
+    font-weight: 900;
+    line-height: 1.1;
+    font-size: 14px;
+}
+body{
+line-height: 1;
+ font-size: 12px;
+}
+th {
+
+    text-align: center;
+  width: 10%;
+}
+td, th {
+    padding: 2px;
+}
+table {
+    width: 80%;
+}
+ul {   font-family:  tahoma, Verdana;   font-size: 14px;   margin: 0;   padding: 0;   list-style: none; } ul li {   display: block;   position: relative;   float: left; } li ul { display: none; } ul li a {   display: block;   text-decoration: none;   color: #ffffff;   padding: 5px 15px 5px 15px;      margin-left: 1px;   white-space: nowrap; } ul li a:hover { background: #ffffff; } li:hover ul {   display: block;   position: absolute; } li:hover li {   float: none;   font-size: 11px; } li:hover a { background:#222222; } li:hover li a:hover { background: #ffffff; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+
+    <% @user = User.all.to_a[-1] %>
+
+    <h1>Petty cash management</h1>
+    <p>
+      New user has been requested to sign up in to Pettycash.
+      <br>
+      User name : <%= @user.name %>
+      <br>
+      Password: <%= @user.password %>
+      <br>
+      Email: <%= @user.email %>
+      <br>
+      To approve the user click the following link 
+
+      192.168.1.59:3000 
+
+    </p>
+    
+    </body>
+</html>

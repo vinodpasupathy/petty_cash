@@ -1,0 +1,29 @@
+<body>
+	<center>
+    <h3 >Select the dates to view the claimed expenses.</h3>
+</br>
+		
+<%= form_for :expense, :url => {:controller => "users", :action => "approved_claims"} do |i| %>
+<center><table>
+        <tr >
+<td><%= i.label :start_date,"From" %> </td>
+<td><%= i.text_field :start_date,:id => "txtFrom",:required => true, :class=>"form-control" %></td>
+<td><%= i.label :end_date,"To" %> </td>
+<td><%= i.text_field :end_date,:id=>"txtTo",:required => true, :class=>"form-control" %></td>
+</tr>
+</table>
+</center>
+</br>
+
+    <div><%= i.submit "Approved claims", :class => "btn btn-info" %></div><br>
+    <div><%= i.button "Declined claims", :name => "commit", :value => "declined claims", :class => "btn btn-primary" %></div>
+
+ 		
+	<%end%>
+
+
+    </div>    
+
+</center>
+
+</body>

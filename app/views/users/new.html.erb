@@ -1,0 +1,71 @@
+<center>
+
+    <div style="font-family: Tahoma">
+
+<div class="container">
+
+<h2 >User Registration</h2>
+
+<br>
+
+  <div style="width: 25%;">
+
+<%= form_for @user do | i | %>
+
+   <form class="form-horizontal" role="form">
+
+      <div >
+
+    <div class="form-group">
+      <%= i.label :name, "Name", :class=>"control-label col-sm-2"%>
+      <div class="col-sm-offset-5">
+        <%= i.text_field :name,:class=>"form-control",:required => true,:autofocus=>true%>
+      </div>
+    </div>
+    <div class="form-group">
+      <%= i.label :password, :class=>"control-label col-sm-2"%>
+      <div class="col-sm-offset-5">
+        <%= i.text_field :password,:class=>"form-control",:required => true %>
+      </div>
+    </div>
+     <div class="form-group">
+      <%= i.label :email,"E-mail", :class=>"control-label col-sm-2"%>
+      <div class="col-sm-offset-5">
+      <%= i.text_field :email,:class=>"form-control",:required => true %>
+    </div>
+    </div>
+     <div class="form-group">
+      <%= i.label :phone,"Mobile Number", :class=>"control-label col-sm-2"%>
+      <div class="col-sm-offset-5">
+      <%= i.text_field :phone,:class=>"form-control",:required => true %>
+    </div>
+    </div>
+
+    <div class="form-group">
+      <%= i.label :role,"Role", :class=>"control-label col-sm-2"%>
+      <div class="col-sm-offset-5" >
+        <%= i.select :role, options_for_select([["Admin"],["Financier"],["User"]]),:prompt=> '--select--',:required => true%>
+      </div>
+    </div>
+
+    <br>
+    
+     <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-offset-4">
+        <%= i.submit "Register",:id=>"submit",:class=>"btn btn-success" %>
+        <%= link_to "Cancel", users_user_index_path, :class => "btn btn-danger" %>
+      </div>
+    </div>
+
+  </div>
+    </form>
+
+<%end%>
+
+</div>
+
+</div>
+
+</div>
+
+</center>

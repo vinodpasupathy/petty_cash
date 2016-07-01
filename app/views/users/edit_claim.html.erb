@@ -1,0 +1,90 @@
+<center>
+
+    <div style="font-family: Tahoma">
+
+<div class="container">
+
+	<h3>Claim your expense</h3>
+
+	<br>
+
+  <div style="width: 25%;">
+
+	<%= form_for @expense, :url => {:controller => "users", :action => "update_claim", :id => @expense.id} do |i| %>
+
+	<form class="form-horizontal" role="form">
+
+    <div >
+
+     <div class="form-group">
+      <%= i.label :date, "Date", :class=>"control-label col-sm-6" %>
+       <div class="col-sm-offset-7">
+        <div class='input-group date'  style="width: 200px;">
+          <%= i.date_field :date,:id=>"txtFrom", :class=>"form-control"%>
+         </div>
+        </div>
+       </div>
+     </div>
+
+    <div class="form-group">
+      <%= i.label :expense_type, "Expense Category", :class=>"control-label col-sm-6" %>
+       <div class="col-sm-offset-7">
+        <%= i.select :expense_type, ['Petrol', 'Courier','Food','Stationary','Others'],:class=>"form-control"%>
+      </div>
+    </div>
+    
+    <br>
+
+    <div class="form-group">
+      <%= i.label :narrate_expense, "Narrate your Expense", :class=>"control-label col-sm-6" %>
+        <div class="col-sm-offset-7">
+        <%= i.text_area :narrate_expense, :required => true,:class=>"form-control", :style=>"width: 200px; height: 50px;" %>
+      </div>
+    </div>
+  
+  <br>
+    
+     <div class="form-group">
+      <%= i.label :voucher,"Add Voucher", :class=>"control-label col-sm-6" %>
+      <div class="col-sm-offset-7">
+      <%= i.file_field :vouchere %>
+    </div>
+    </div>
+    
+    <br>
+
+     <div class="form-group">
+      <%= i.label :total,"Total cost", :class=>"control-label col-sm-6"%>
+      <div class="col-sm-offset-7">   
+      <%= i.text_field :total,:required => true,:class=>"form-control" %>
+    </div>
+    </div>
+
+    <%= i.hidden_field :claimed_by, :value => @user %>
+
+    <br>
+
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-offset-4">
+        <center><%= i.submit "Submit",:id=>"submit",:class=>"btn btn-info" %></center>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-offset-4">
+        <%= link_to "Cancel", users_single_user_index_path, :class => "btn btn-info" %>
+      </div>
+    </div>
+
+
+  </div>
+
+    </form>
+
+<%end%>
+
+</div>
+
+</div>
+
+</center>

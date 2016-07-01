@@ -1,0 +1,13 @@
+
+<% @user = User.last %>
+
+<h3>Hello <%= @user.name %>, <br> Welcome to Petty cash Management</h3>
+
+<p> Please use the below details to login to Petty cash.</p>
+
+<br><p>
+Mobile number:
+<%= @user.phone %></p>
+<br><p>
+Password:
+<%= @user.password %></p>

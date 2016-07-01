@@ -1,0 +1,91 @@
+<center>
+
+  <div style="font-family: Tahoma">
+
+<div class="container">
+
+	<h3 >Claim your expense</h3>
+
+	<br>
+
+  <div style="width: 25%;">
+
+	<%= form_for @expense, :url => {:controller => "users", :action => "get_claim"} do |i| %>
+
+	<form class="form-horizontal" role="form">
+
+    
+
+     <div class="form-group">
+      <%= i.label :date, " Date ", :class=>" fa fa-calendar control-label col-sm-6 " %>
+       <div class="col-sm-offset-7">
+        <div class='input-group date'   style="width: 200px;">
+          <%= i.date_field :date,:id=>"txtFrom", :class=>"form-control", :required => true %>
+       </div>
+       </div>
+     </div>
+
+    <div class="form-group">
+      <%= i.label :expense_type, "Expense Category", :class=>"control-label col-sm-6" %>
+       <div class="col-sm-offset-7">
+        <%= i.select :expense_type, ['--select--','Petrol', 'Courier','Food','Stationary','Others'],:class=>"form-control",:required => true%>
+      </div>
+    </div>
+    
+    <br>
+
+    <div class="form-group">
+      <%= i.label :narrate_expense, "Narrate your Expense", :class=>"control-label col-sm-6" %>
+   	    <div class="col-sm-offset-7">
+	  		<%= i.text_area :narrate_expense, :required => true,:class=>"form-control", :style=>"width: 200px; height: 50px;" %>
+      </div>
+    </div>
+	
+	<br>
+    
+     <div class="form-group">
+     	<%= i.label :voucher,"Add Bill", :class=>"control-label col-sm-6" %>
+      <div class="col-sm-offset-7">
+  		<%= i.file_field :voucher %>
+	  </div>
+    </div>
+    
+    <br>
+
+     <div class="form-group">
+     	<%= i.label :total,"Total cost", :class=>"control-label col-sm-6"%>
+      <div class="col-sm-offset-7"> 	
+  		<%= i.text_field :total,:step => "0.01",:required => true,:class=>"form-control" %>
+	  </div>
+    </div>
+
+    <%= i.hidden_field :claimed_by, :value => @user %>
+
+    <br>
+<div><table>
+<tr>
+    <td>   <%= i.submit "Save and close",:id=>"submit",:class=>"btn btn-info" %></td>
+       <td> <%= i.button "Save and continue", action: "get_claim", :name => "commit", :value => "Save and continue", :class => "btn btn-info" %></td>
+          <% if admin? %>
+         <td>   <%= link_to "Cancel", users_path, :class => "btn btn-info" %></td>
+          <% elsif financier? %>
+          <td>  <%= link_to "Cancel", users_claim_index_financier_path, :class => "btn btn-info" %></td>
+          <% else %>
+           <td> <%= link_to "Cancel", users_single_user_index_path, :class => "btn btn-default" %> </td>
+          <%end %>
+</tr>
+<table>
+    </div>
+  </div>      
+
+    </form>
+
+<%end%>
+
+</div>
+
+</div>
+
+</center>
+
+

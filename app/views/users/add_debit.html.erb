@@ -1,0 +1,102 @@
+<center>
+
+    <div style="font-family: Tahoma">
+
+
+<div class="container">
+
+	<h3 >Add new Debit</h3>
+
+	<br>
+
+  <div style="width: 25%;">
+
+	<%= form_for @debit, :url => {:controller => "users", :action => "get_debit"} do |i| %>
+
+	<form class="form-horizontal" role="form">
+
+    <div >
+
+     <div class="form-group">
+      <%= i.label :date, " Date", :class=>"fa fa-calendar control-label col-sm-6" %>
+       <div class="col-sm-offset-7">
+        <div class='input-group date'  style="width: 200px;">
+          <%= i.date_field :date,:id=>"txtFrom",:required => true, :class=>"form-control"%>
+        </div>
+        </div>
+       </div>
+     </div>
+
+    <div class="form-group">
+      <%= i.label :mode_of_payment, "Mode of payment", :class=>"control-label col-sm-6" %>
+           
+    Cheque <input type="radio" onclick="javascript:yesnoCheck();" name="yesno" id="yesCheck"> Cash <input type="radio" onclick="javascript:yesnoCheck();" name="yesno" id="noCheck">
+     <%= i.text_field :mode_of_payment,:value=>"Cheque" %>
+    </div>
+
+<br>
+    <div id="ifYes" style="display:none">
+<br>
+    <div class="form-group">
+      <%= i.label :cheque_no, "Cheque No", :class=>"control-label col-sm-6" %>
+            <div class="col-sm-offset-7">
+                        <%= i.text_field :cheque_no, :class=>"form-control" %>
+      </div>
+    </div>
+
+          <br>
+
+    <div class="form-group">
+      <%= i.label :bank, "Bank", :class=>"control-label col-sm-6" %>
+        <div class="col-sm-offset-7">
+        <!--%= i.text_field :bank,:class=>"form-control" %-->
+        <%= i.select :bank, ['SBI','HDFC','IOB','Others'],:class=>"form-control"%>
+      </div>
+    </div>
+<br>
+    <div class="form-group">
+        <%= i.label :cheque,"Add Cheque", :class=>"control-label col-sm-6" %>
+      <div class="col-sm-offset-7">
+                <%= i.file_field :cheque %>
+          </div>
+    </div>
+
+    </div>
+        
+ 
+    <br>
+
+     <div class="form-group">
+     	<%= i.label :amount,"Amount", :class=>"control-label col-sm-6"%>
+      <div class="col-sm-offset-7"> 	
+  		<%= i.text_field :amount,:set=>"0.01",:required => true,:class=>"form-control" %>
+	  </div>
+    </div>
+
+    <!--%= i.hidden_field :claimed_by, :value => @user %-->
+
+    <br>
+
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-offset-4">
+        <center>
+          <%= i.submit "Save",:id=>"submit",:class=>"btn btn-info" %>
+          <%= link_to "Cancel", users_path, :class => "btn btn-info" %>
+        </center>
+      </div>
+    </div>
+
+    
+</div>      
+
+    </form>
+
+<%end%>
+
+</div>
+
+</div>
+
+</center>
+
+

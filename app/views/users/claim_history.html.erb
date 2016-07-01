@@ -1,0 +1,131 @@
+
+<center>
+
+	<div style="font-family: Tahoma">
+
+<h4  align = "center"> List of claims</h4>
+<body>
+	   	<% if admin? or financier? %>
+	<div  align= "center">
+		<%= form_for @expen, :url => {:controller => "users", :action => "claim_history" } do |exp| %>
+			<%= exp.collection_select :claimed_by, User.select(:name).order('name ASC'), :name, :name, {:prompt=> "-select user-"} %>
+                 	<%= exp.collection_select :expense_type, Expense.select(:expense_type).uniq, :expense_type, :expense_type, {:prompt=> "-select expense type-"} %>
+			<%= exp.text_field :from_date,:id=>"txtFrom", :placeholder => "From" ,:readonly=>true%>
+			<%= exp.text_field :to_date,:id=>"txtTo", :placeholder => "To",:readonly=>true %>
+
+			<%= exp.submit "Get history" ,:class=>"btn btn-info" %>
+                        <%= link_to  users_claim_history_path,:class=>"btn btn-info" do %><i class="fa fa-history" aria-hidden="true"> Clear</i><%end%>
+		<% end %>
+	</div>
+
+<br><br>
+<table border="2">
+<thead>	
+<tr>
+		<th>Date</th>
+		<th>Claimed By</th>
+		<th>Expense Type</th>
+		<th>Expense Narration</th>
+		<th>Bill</th>
+		<th>Claimed Amount</th>
+		<th>Approved Amount</th>
+		<th>Claim status</th>
+        <th>Approved By</th>
+
+	</tr>
+</thead>
+	<% @tot_amt=[] %>
+
+	<% if @expense.blank? %>
+	<table><th>No records to display</th></table>
+	<% else %>
+
+	<% @expense.each do |i| %>
+
+	<tr>
+		<td><%= i.date %></td>
+		<td><%= i.claimed_by%></td>
+		<td><%= i.expense_type %></td>
+       	        <td><%= i.narrate_expense %></td>
+
+	    <% if not i.voucher.blank? %>
+<td><%= link_to users_show_image_path(i) do %><i class="fa fa-eye" aria-hidden="true"> View</i><%end%>	    
+	    <% else %>
+	        <td>No Bill</td>
+	    <% end %>
+
+    	       <td align = "right"><%= i.total %></td>
+      	
+    	<% @tot_amt<<i.approved_amount unless i.approved_amount.nil? %>
+
+    	       <td align = "right"><%= i.approved_amount %></td>
+    	       <td><%= i.claim_status %></td>
+    	       <td><%= i.approved_by %></td>
+	</tr>
+    <% end %>
+
+  <tr><th>Total</th><td colspan='6' align="right"><b><%= @tot_amt.sum %></b></td></tr>
+
+  <% end %>
+
+</table>
+
+<br>
+
+	<% else %>
+
+
+		<% @u = User.find(session[:user_id]).name %>
+		<% @expense = Expense.where(:claimed_by => @u) %>
+		<% @expense1 = @expense.where.not(:claim_status => nil) %>
+
+	
+		<h4 align = "center"> Claims made by <%= @u %></h4>
+
+<table border="2" >
+	<tr>
+		<th>Date</th>
+		<th>Claimed By</th>
+		<th>Expense Type</th>
+		<th>Expense Narration</th>
+		<th>Bill</th>
+		<th>Claimed Amount</th>
+		<th>Claim Status</th>
+		<th>Approved Amount</th>
+		<th>Approved By</th>
+	</tr>
+	<% if @expense1.blank? %>
+	<table><th>No records to display</th></table>
+	<% else %>
+
+	<% @expense1.each do |i| %>
+<tr>
+		<td><%= i.date %></td>
+		<td><%= i.claimed_by%></td>
+		<td><%= i.expense_type %></td>
+	    <td><%= i.narrate_expense %></td>
+
+	    <% if not i.voucher.blank? %>
+	   <td><%= link_to users_show_image_path(i) do %><i class="fa fa-eye" aria-hidden="true"> View</i><%end%> 
+           <% else %>
+	    <td>No Bill</td>
+	    <% end %>
+
+    	<td align="right"><%= i.total %></td>
+    	<td align="right"><%= i.claim_status %></td>
+    	<td><%= i.approved_amount %></td>
+    	<td><%= i.approved_by %></td>
+
+	
+	</tr>
+ <% end %>
+
+    <% end %>
+</table>
+<% end %>
+</div>
+</body>
+</div>
+
+</center>
+
