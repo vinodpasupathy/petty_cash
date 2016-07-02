@@ -11,7 +11,7 @@
 <tbody>
 <% @debit.each do |i| %>
 <tr>
-<td align="center"><%= i.date.strftime("%d/%m/%y")  %></td>
+<td align="center"><%= i.date.to_date.strftime("%d/%m/%y")  %></td>
 <td align="center"><%= i.mode_of_payment %></td>
 <td align="right"><%= i.amount %></td>
 <td><%= link_to  users_debit_edit_path(:id => i.id) do %><i class="fa fa-pencil" aria-hidden="true"> Edit</i><%end%></li></td>
