@@ -142,24 +142,24 @@ class UsersController < ApplicationController
 			exp = Expense.where.not(:claim_status => nil)
 		    if name == "" && f_date != ""
                 if type == ""
-                    @expense=exp.where(:date=>f_date..t_date).where.not(:claim_status => "Need Approval").order("date ASC")
+                    @expense=exp.where(:date=>f_date..t_date).where.not(:claim_status => "Need Approval").order("created_at DESC")
                 else
-                    @expense= exp.where(:expense_type=>type).where(:date=>f_date..t_date).where.not(:claim_status => "Need Approval").order("date ASC")
+                    @expense= exp.where(:expense_type=>type).where(:date=>f_date..t_date).where.not(:claim_status => "Need Approval").order("created_at DESC")
             	end
             elsif type == "" && f_date != ""
                	if name == ""
-                    @expense=exp.where(:date=>f_date..t_date).where.not(:claim_status => "Need Approval").order("date ASC")
+                    @expense=exp.where(:date=>f_date..t_date).where.not(:claim_status => "Need Approval").order("created_at DESC")
                 else
-                    @expense=exp.where(:claimed_by=>name).where(:date=>f_date..t_date).where.not(:claim_status => "Need Approval").order("date ASC")
+                    @expense=exp.where(:claimed_by=>name).where(:date=>f_date..t_date).where.not(:claim_status => "Need Approval").order("created_at DESC")
                 end
             elsif name == "" && f_date == ""
-                @expense=exp.where(:expense_type=>type).where.not(:claim_status => "Need Approval").order("date ASC")
+                @expense=exp.where(:expense_type=>type).where.not(:claim_status => "Need Approval").order("created_at DESC")
 			elsif type == "" && f_date == ""
-		   		@expense=exp.where(:claimed_by=>name).where.not(:claim_status => "Need Approval").order("date ASC")
+		   		@expense=exp.where(:claimed_by=>name).where.not(:claim_status => "Need Approval").order("created_at DESC")
             elsif f_date ==  "" &&  t_date == ""
-                @expense=exp.where(:claimed_by=>name).where(:expense_type=>type).where.not(:claim_status => "Need Approval").order("date ASC")
+                @expense=exp.where(:claimed_by=>name).where(:expense_type=>type).where.not(:claim_status => "Need Approval").order("created_at DESC")
             elsif name != "" && type != "" && f_date != "" && t_date != ""
-               	@expense=exp.where(:claimed_by=>name,:expense_type=>type).where(:date=>f_date..t_date)
+               	@expense=exp.where(:claimed_by=>name,:expense_type=>type).where(:date=>f_date..t_date).order("created_at DESC")
       		end
         else
         	@expen = Expense.new

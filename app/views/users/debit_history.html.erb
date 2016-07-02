@@ -1,5 +1,5 @@
 <center>
-<h3>Debit Summary</h3> <!--h>for the month of <-%= Date.today.strftime("%B")%->  </h3-->
+<h3>Credit Summary</h3> <!--h>for the month of <-%= Date.today.strftime("%B")%->  </h3-->
 <table border="2">
 <thead>
 <tr>
@@ -11,7 +11,7 @@
 <tbody>
 <% @debit.each do |i| %>
 <tr>
-<td align="center"><%= i.date  %></td>
+<td align="center"><%= i.date.strftime("%d/%m/%y")  %></td>
 <td align="center"><%= i.mode_of_payment %></td>
 <td align="right"><%= i.amount %></td>
 <td><%= link_to  users_debit_edit_path(:id => i.id) do %><i class="fa fa-pencil" aria-hidden="true"> Edit</i><%end%></li></td>

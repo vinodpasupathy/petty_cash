@@ -30,7 +30,7 @@
 		<th>Claimed Amount</th>
 		<th>Approved Amount</th>
 		<th>Claim status</th>
-        <th>Approved By</th>
+        <th>Approved/Declined By</th>
 
 	</tr>
 </thead>
@@ -43,7 +43,7 @@
 	<% @expense.each do |i| %>
 
 	<tr>
-		<td><%= i.date %></td>
+		<td><%= i.date.strftime("%d/%m/%y") %></td>
 		<td><%= i.claimed_by%></td>
 		<td><%= i.expense_type %></td>
        	        <td><%= i.narrate_expense %></td>
@@ -100,7 +100,7 @@
 
 	<% @expense1.each do |i| %>
 <tr>
-		<td><%= i.date %></td>
+		<td><%= i.date.strftime("%d/%m/%y") %></td>
 		<td><%= i.claimed_by%></td>
 		<td><%= i.expense_type %></td>
 	    <td><%= i.narrate_expense %></td>
