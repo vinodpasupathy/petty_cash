@@ -17,4 +17,280 @@ Untracked files:
 	[31minstall[m
 
 nothing added to commit but untracked files present (use "git add" to track)
-]0;altius@uror-09: ~/poombavai/petty_cashaltius@uror-09:~/poombavai/petty_cash$ git statusheroku config:add GMAIL_SMTP_PASSWORD=whiteplaast2016USER=whiteplaast@gmail.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pexport GMAIL_SMTP_PASSWORD=whiteplaast2016USER=whiteplaast@gmail.comit[Kvim app/views/users/add_debit.html.erb [15Pcd poombavai/petty_cash/ls[Klsrm -rf petty_cash oldd[Klls[K[1Pscd poombavai/petty_cash/vim app/views/users/add_debit.html.erb exit[Kport GMAIL_SMTP_USER=whiteplaast@gmail.com[2PPASSWORD=whiteplaast2016[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cheroku config:add GMAIL_SMTP_USER=whiteplaast@gmail.com[2PPASSWORD=whiteplaast2016[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit status[K[Kgit statusheroku config:add GMAIL_SMTP_PASSWORD=whiteplaast2016USER=whiteplaast@gmail.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pexport GMAIL_SMTP_PASSWORD=whiteplaast2016USER=whiteplaast@gmail.comit[Kvim app/views/users/add_debit.html.erb [15Pcd poombavai/petty_cash/ls[Klsrm -rf petty_cash olddls[Krm -rf petty_cash oldd[Kls[Kcd ..vim app/assets/javascripts/application.js [2@stylesheets/application.scs[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbundle[Kgem list 'date'[9Pbundlevim app/assets/stylesheets/application.scss [2Pjavascripts/application.j[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K[3Plsrm -rf petty_cash oldls[Kcd ..vim app/assets/javascripts/application.js [2@stylesheets/applic
+]0;altius@uror-09: ~/poombavai/petty_cashaltius@uror-09:~/poombavai/petty_cash$ git statusheroku config:add GMAIL_SMTP_PASSWORD=whiteplaast2016USER=whiteplaast@gmail.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pexport GMAIL_SMTP_PASSWORD=whiteplaast2016USER=whiteplaast@gmail.comit[Kvim app/views/users/add_debit.html.erb [15Pcd poombavai/petty_cash/ls[Klsrm -rf petty_cash oldd[Klls[K[1Pscd poombavai/petty_cash/vim app/views/users/add_debit.html.erb exit[Kport GMAIL_SMTP_USER=whiteplaast@gmail.com[2PPASSWORD=whiteplaast2016[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cheroku config:add GMAIL_SMTP_USER=whiteplaast@gmail.com[2PPASSWORD=whiteplaast2016[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit status[K[Kgit statusheroku config:add GMAIL_SMTP_PASSWORD=whiteplaast2016USER=whiteplaast@gmail.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pexport GMAIL_SMTP_PASSWORD=whiteplaast2016USER=whiteplaast@gmail.comit[Kvim app/views/users/add_debit.html.erb [15Pcd poombavai/petty_cash/ls[Klsrm -rf petty_cash olddls[Krm -rf petty_cash oldd[Kls[Kcd ..vim app/assets/javascripts/application.js [2@stylesheets/application.scs[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbundle[Kgem list 'date'[9Pbundlevim app/assets/stylesheets/application.scss [2Pjavascripts/application.j[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K[3Plsrm -rf petty_cash oldls[Kcd ..vim app/assets/javascripts/application.js [2@stylesheets/application.scs[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbundle[Kgem list 'date'uninstall 'bootstrap3-datetimepicker-rails'list 'date'[K[2Pmo'uninstall 'momentjs-rails'[17Plist 'mo'[7Pbundlevim Gemfile[5Pbundlegem list 'mo'uninstall 'momentjs-rails'[17Plist 'mo'date'uninstall 'bootstrap3-datetimepicker-rails'list 'date'[K[9Pbundlevim app/assets/stylesheets/application.scss [2Pjavascripts/application.j[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K[3Plsrm -rf petty_cash olddls[Krm -rf petty_cash oldd[Klls[K[1Pscd poombavai/petty_cash/vim app/views/users/add_debit.html.erb exit[Kport GMAIL_SMTP_USER=whiteplaast@gmail.com[2PPASSWORD=whiteplaast2016[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cheroku config:add GMAIL_SMTP_USER=whiteplaast@gmail.com[2PPASSWORD=whiteplaast2016[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit status[K[Kgit add .
+]0;altius@uror-09: ~/poombavai/petty_cashaltius@uror-09:~/poombavai/petty_cash$ git commit -m ""s"c"r"i"p"t"[C
+[master 100b423] script
+ 1 file changed, 20 insertions(+)
+ create mode 100644 install
+]0;altius@uror-09: ~/poombavai/petty_cashaltius@uror-09:~/poombavai/petty_cash$ git push origin master
+Username for 'https://github.com': vinodrey916vino@gmail.com
+Password for 'https://vinodrey916vino@gmail.com@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 1.15 KiB | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/vinodpasupathy/petty_cash.git
+   20bc96d..100b423  master -> master
+]0;altius@uror-09: ~/poombavai/petty_cashaltius@uror-09:~/poombavai/petty_cash$ git push origin mastercommit -m "script"push origin mastercommit -m "script"add .[Kstatusheroku config:add GMAIL_SMTP_PASSWORD=whiteplaast2016USER=whiteplaast@gmail.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pexport GMAIL_SMTP_PASSWORD=whiteplaast2016USER=whiteplaast@gmail.comit[Kvim app/views/users/add_debit.html.erb [15Pcd poombavai/petty_cash/ls[Kls[1Pscd poombavai/petty_cash/vim app/views/users/add_debit.html.erb exit[Kport GMAIL_SMTP_USER=whiteplaast@gmail.com[2PPASSWORD=whiteplaast2016[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cheroku config:add GMAIL_SMTP_USER=whiteplaast@gmail.com[2PPASSWORD=whiteplaast2016[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit status[K[1Padd .commit -m "script"push origin master[Kgit push origin master[Kgit push heroku master
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 1.15 KiB | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Compressing source files... done.[K
+remote: Building source:[K
+remote: 
+remote: -----> Using set buildpack heroku/ruby[K
+remote: -----> Ruby app detected[K
+remote: -----> Compiling Ruby/Rails[K
+remote: -----> Using Ruby version: ruby-2.2.4[K
+remote: -----> Installing dependencies using bundler 1.11.2[K
+remote:        Running: bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin -j4 --deployment[K
+remote:        Warning: the running version of Bundler is older than the version that created the lockfile. We suggest you upgrade to the latest version of Bundler by running `gem install bundler`.[K
+remote:        Using rake 11.2.2[K
+remote:        Using i18n 0.7.0[K
+remote:        Using json 1.8.3[K
+remote:        Using minitest 5.9.0[K
+remote:        Using thread_safe 0.3.5[K
+remote:        Using builder 3.2.2[K
+remote:        Using erubis 2.7.0[K
+remote:        Using mini_portile2 2.1.0[K
+remote:        Using pkg-config 1.1.7[K
+remote:        Using rack 1.6.4[K
+remote:        Using mime-types-data 3.2016.0521[K
+remote:        Using arel 6.0.3[K
+remote:        Using execjs 2.7.0[K
+remote:        Using sass 3.4.22[K
+remote:        Using mimemagic 0.3.1[K
+remote:        Using coffee-script-source 1.10.0[K
+remote:        Using thor 0.19.1[K
+remote:        Using concurrent-ruby 1.0.2[K
+remote:        Using multi_json 1.12.1[K
+remote:        Using turbolinks-source 5.0.0[K
+remote:        Using libv8 3.16.14.15[K
+remote:        Using pg 0.18.4[K
+remote:        Using puma 3.4.0[K
+remote:        Using bundler 1.11.2[K
+remote:        Using rails_serve_static_assets 0.0.5[K
+remote:        Using rails_stdout_logging 0.0.4[K
+remote:        Using ref 2.0.0[K
+remote:        Using tilt 2.0.5[K
+remote:        Using rdoc 4.2.2[K
+remote:        Using tzinfo 1.2.2[K
+remote:        Using rack-test 0.6.3[K
+remote:        Using nokogiri 1.6.8[K
+remote:        Using mime-types 3.1[K
+remote:        Using autoprefixer-rails 6.3.6.2[K
+remote:        Using uglifier 3.0.0[K
+remote:        Using coffee-script 2.4.1[K
+remote:        Using sprockets 3.6.2[K
+remote:        Using turbolinks 5.0.0[K
+remote:        Using therubyracer 0.12.2[K
+remote:        Using rails_12factor 0.0.3[K
+remote:        Using activesupport 4.2.5.2[K
+remote:        Using sdoc 0.4.1[K
+remote:        Using bootstrap-sass 3.3.6[K
+remote:        Using loofah 2.0.3[K
+remote:        Using rack-pjax 1.0.0[K
+remote:        Using mail 2.6.4[K
+remote:        Using rails-deprecated_sanitizer 1.0.3[K
+remote:        Using globalid 0.3.6[K
+remote:        Using activemodel 4.2.5.2[K
+remote:        Using jbuilder 2.5.0[K
+remote:        Using rails-html-sanitizer 1.0.3[K
+remote:        Using activejob 4.2.5.2[K
+remote:        Using activerecord 4.2.5.2[K
+remote:        Using carrierwave 0.11.2[K
+remote:        Using rails-dom-testing 1.0.7[K
+remote:        Using actionview 4.2.5.2[K
+remote:        Using actionpack 4.2.5.2[K
+remote:        Using actionmailer 4.2.5.2[K
+remote:        Using railties 4.2.5.2[K
+remote:        Using sprockets-rails 3.1.1[K
+remote:        Using coffee-rails 4.1.1[K
+remote:        Using font-awesome-rails 4.6.3.1[K
+remote:        Using jquery-rails 4.1.1[K
+remote:        Using jquery-turbolinks 2.1.0[K
+remote:        Using rails 4.2.5.2[K
+remote:        Using sass-rails 5.0.5[K
+remote:        Bundle complete! 23 Gemfile dependencies, 66 gems now installed.[K
+remote:        Gems in the groups development and test were not installed.[K
+remote:        Bundled gems are installed into ./vendor/bundle.[K
+remote:        Bundle completed (0.45s)[K
+remote:        Cleaning up the bundler cache.[K
+remote:        Warning: the running version of Bundler is older than the version that created the lockfile. We suggest you upgrade to the latest version of Bundler by running `gem install bundler`.[K
+remote:        Detected manifest file, assuming assets were compiled locally[K
+remote: 
+remote: ###### WARNING:[K
+remote:        You have not declared a Ruby version in your Gemfile.[K
+remote:        To set your Ruby version add this line to your Gemfile:[K
+remote:        ruby '2.2.4'[K
+remote:        # See https://devcenter.heroku.com/articles/ruby-versions for more information.[K
+remote: 
+remote: ###### WARNING:[K
+remote:        No Procfile detected, using the default web server.[K
+remote:        We recommend explicitly declaring how to boot your server process via a Procfile.[K
+remote:        https://devcenter.heroku.com/articles/ruby-default-web-server[K
+remote: 
+remote: 
+remote: -----> Discovering process types[K
+remote:        Procfile declares types     -> (none)[K
+remote:        Default types for buildpack -> console, rake, web, worker[K
+remote: 
+remote: -----> Compressing...[K
+remote:        Done: 48.9M[K
+remote: -----> Launching...[K
+remote:        Released v11[K
+remote:        https://petty-cash.herokuapp.com/ deployed to Heroku[K
+remote: 
+remote: Verifying deploy... done.[K
+To https://git.heroku.com/petty-cash.git
+   20bc96d..100b423  master -> master
+]0;altius@uror-09: ~/poombavai/petty_cashaltius@uror-09:~/poombavai/petty_cash$ [H[2J]0;altius@uror-09: ~/poombavai/petty_cashaltius@uror-09:~/poombavai/petty_cash$ heroku logs -t
+[36m2016-07-01T10:15:28.261575+00:00 heroku[slug-compiler]:[39m Slug compilation started
+[36m2016-07-01T10:15:28.261584+00:00 heroku[slug-compiler]:[39m Slug compilation finished
+[35m2016-07-01T10:15:28.070125+00:00 heroku[api]:[39m Deploy 100b423 by vinodpasupathy@gmail.com
+[33m2016-07-01T10:15:28.293891+00:00 heroku[web.1]:[39m Restarting
+[33m2016-07-01T10:15:28.294711+00:00 heroku[web.1]:[39m State changed from up to starting
+[33m2016-07-01T10:15:31.921220+00:00 heroku[web.1]:[39m Starting process with command `bin/rails server -p 24474 -e production`
+[33m2016-07-01T10:15:31.822834+00:00 heroku[web.1]:[39m Stopping all processes with SIGTERM
+[33m2016-07-01T10:15:32.822266+00:00 app[web.1]:[39m === puma shutdown: 2016-07-01 10:15:32 +0000 ===
+[33m2016-07-01T10:15:32.822324+00:00 app[web.1]:[39m - Goodbye!
+[33m2016-07-01T10:15:32.822003+00:00 app[web.1]:[39m - Gracefully stopping, waiting for requests to finish
+[33m2016-07-01T10:15:32.822392+00:00 app[web.1]:[39m Exiting
+[33m2016-07-01T10:15:34.399106+00:00 heroku[web.1]:[39m Process exited with status 0
+[33m2016-07-01T10:15:36.339682+00:00 app[web.1]:[39m => Booting Puma
+[33m2016-07-01T10:15:36.333916+00:00 app[web.1]:[39m DEPRECATION WARNING: The configuration option `config.serve_static_assets` has been renamed to `config.serve_static_files` to clarify its role (it merely enables serving everything in the `public` folder and is unrelated to the asset pipeline). The `serve_static_assets` alias will be removed in Rails 5.0. Please migrate your configuration files accordingly. (called from <class:Application> at /app/config/application.rb:24)
+[33m2016-07-01T10:15:36.339702+00:00 app[web.1]:[39m => Rails 4.2.5.2 application starting in production on http://0.0.0.0:24474
+[33m2016-07-01T10:15:36.339714+00:00 app[web.1]:[39m => Run `rails server -h` for more startup options
+[33m2016-07-01T10:15:36.339721+00:00 app[web.1]:[39m => Ctrl-C to shutdown server
+[33m2016-07-01T10:15:37.360055+00:00 app[web.1]:[39m * Version 3.4.0 (ruby 2.2.4-p230), codename: Owl Bowl Brawl
+[33m2016-07-01T10:15:37.360058+00:00 app[web.1]:[39m * Environment: production
+[33m2016-07-01T10:15:37.360038+00:00 app[web.1]:[39m Puma starting in single mode...
+[33m2016-07-01T10:15:37.360057+00:00 app[web.1]:[39m * Min threads: 0, max threads: 16
+[33m2016-07-01T10:15:37.360184+00:00 app[web.1]:[39m * Listening on tcp://0.0.0.0:24474
+[33m2016-07-01T10:15:37.360424+00:00 app[web.1]:[39m Use Ctrl-C to stop
+[33m2016-07-01T10:15:37.857778+00:00 heroku[web.1]:[39m State changed from starting to up
+[33m2016-07-01T10:15:40.130720+00:00 app[web.1]:[39m   Rendered users/new.html.erb within layouts/application (11.0ms)
+[33m2016-07-01T10:15:40.147741+00:00 app[web.1]:[39m   [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+[33m2016-07-01T10:15:40.148953+00:00 app[web.1]:[39m   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+[33m2016-07-01T10:15:40.090210+00:00 app[web.1]:[39m Processing by UsersController#new as HTML
+[33m2016-07-01T10:15:40.030566+00:00 app[web.1]:[39m Started GET "/users/new" for 115.111.129.98 at 2016-07-01 10:15:40 +0000
+[33m2016-07-01T10:15:40.149903+00:00 app[web.1]:[39m   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+[33m2016-07-01T10:15:40.150123+00:00 app[web.1]:[39m   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+[33m2016-07-01T10:15:40.150572+00:00 app[web.1]:[39m Completed 200 OK in 60ms (Views: 27.5ms | ActiveRecord: 12.8ms)
+[32m2016-07-01T10:15:40.146924+00:00 heroku[router]:[39m at=info method=GET path="/users/new" host=petty-cash.herokuapp.com request_id=02f36309-88b5-4e83-aede-462a10cab282 fwd="115.111.129.98" dyno=web.1 connect=1ms service=128ms status=200 bytes=7659
+[32m2016-07-01T10:15:40.550676+00:00 heroku[router]:[39m at=info method=GET path="/assets/application-c24e2e95c1e34bc409a22cb53c93acc29f07bd9565da0ec3acefedde14f544d8.js" host=petty-cash.herokuapp.com request_id=00928cf1-46ef-4dc3-bf21-10322c4fd75d fwd="115.111.129.98" dyno=web.1 connect=1ms service=3ms status=200 bytes=595
+[32m2016-07-01T10:15:40.566145+00:00 heroku[router]:[39m at=info method=GET path="/assets/application-197553ccb744c3fcce525420c079a1c9b9335d28b3a49aca23bd8de0560005af.css" host=petty-cash.herokuapp.com request_id=1b53c6fa-ea23-4906-b6ec-a3b555f02c43 fwd="115.111.129.98" dyno=web.1 connect=1ms service=7ms status=200 bytes=36614
+[33m2016-07-01T10:16:29.101264+00:00 app[web.1]:[39m Started POST "/users" for 115.111.129.98 at 2016-07-01 10:16:29 +0000
+[33m2016-07-01T10:16:29.129204+00:00 app[web.1]:[39m   [1m[36m (0.9ms)[0m  [1mBEGIN[0m
+[33m2016-07-01T10:16:29.201452+00:00 app[web.1]:[39m   [1m[35mUser Load (6.5ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
+[33m2016-07-01T10:16:29.133680+00:00 app[web.1]:[39m   [1m[35mSQL (0.9ms)[0m  INSERT INTO "users" ("name", "password", "email", "phone", "role", "user_status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["name", "vinod"], ["password", "vinodrey"], ["email", "vinodpasupathy@gmail.com"], ["phone", "8056637762"], ["role", "Admin"], ["user_status", "active"], ["created_at", "2016-07-01 10:16:29.129779"], ["updated_at", "2016-07-01 10:16:29.129779"]]
+[33m2016-07-01T10:16:29.126072+00:00 app[web.1]:[39m   Parameters: {"utf8"=>"✓", "authenticity_token"=>"IKIQDlDsNb2a+UVLUTFkbZ68CkVmzI0SPkztNdLbSh4AOOFJTURRnAxe6XsRLfZOHA4HEsqMkMqnOoBkHmEa2w==", "user"=>{"name"=>"vinod", "password"=>"[FILTERED]", "email"=>"vinodpasupathy@gmail.com", "phone"=>"8056637762", "role"=>"Admin"}, "commit"=>"Register"}
+[33m2016-07-01T10:16:29.125935+00:00 app[web.1]:[39m Processing by UsersController#create as HTML
+[33m2016-07-01T10:16:29.135952+00:00 app[web.1]:[39m   [1m[36m (1.6ms)[0m  [1mCOMMIT[0m
+[33m2016-07-01T10:16:29.202077+00:00 app[web.1]:[39m   Rendered user_mailer1/notify.html.erb within layouts/mailer (10.0ms)
+[33m2016-07-01T10:16:29.204076+00:00 app[web.1]:[39m   Rendered user_mailer1/notify.text.erb within layouts/mailer (0.5ms)
+[33m2016-07-01T10:16:29.517334+00:00 app[web.1]:[39m 
+[33m2016-07-01T10:16:29.517365+00:00 app[web.1]:[39m UserMailer1#notify: processed outbound mail in 357.6ms
+[33m2016-07-01T10:16:29.533683+00:00 app[web.1]:[39m 
+[33m2016-07-01T10:16:29.533694+00:00 app[web.1]:[39m Sent mail to vinodpasupathy@gmail.com (16.1ms)
+2016-07-01T10:16:29.533699+00:00 app[web.1]: Date: Fri, 01 Jul 2016 10:16:29 +0000
+2016-07-01T10:16:29.533700+00:00 app[web.1]: From: from@example.com
+2016-07-01T10:16:29.533701+00:00 app[web.1]: To: vinodpasupathy@gmail.com
+2016-07-01T10:16:29.533702+00:00 app[web.1]: Message-ID: <577642fd7fbb5_33f7e142be838245d5@285add87-4da9-4f4a-b055-abe97b07c392.mail>
+2016-07-01T10:16:29.533703+00:00 app[web.1]: Subject: Notify
+2016-07-01T10:16:29.533703+00:00 app[web.1]: Mime-Version: 1.0
+2016-07-01T10:16:29.533704+00:00 app[web.1]: Content-Type: multipart/alternative;
+2016-07-01T10:16:29.533705+00:00 app[web.1]:  boundary="--==_mimepart_577642fd7dde5_33f7e142be83824486";
+2016-07-01T10:16:29.533705+00:00 app[web.1]:  charset=UTF-8
+2016-07-01T10:16:29.533706+00:00 app[web.1]: Content-Transfer-Encoding: 7bit
+2016-07-01T10:16:29.533707+00:00 app[web.1]: 
+2016-07-01T10:16:29.533707+00:00 app[web.1]: 
+2016-07-01T10:16:29.533708+00:00 app[web.1]: ----==_mimepart_577642fd7dde5_33f7e142be83824486
+2016-07-01T10:16:29.533709+00:00 app[web.1]:  charset=UTF-8
+2016-07-01T10:16:29.533709+00:00 app[web.1]: Content-Transfer-Encoding: 7bit
+2016-07-01T10:16:29.533710+00:00 app[web.1]: 
+2016-07-01T10:16:29.533710+00:00 app[web.1]: UserMailer1#notify
+2016-07-01T10:16:29.533708+00:00 app[web.1]: Content-Type: text/plain;
+2016-07-01T10:16:29.533711+00:00 app[web.1]: 
+2016-07-01T10:16:29.533711+00:00 app[web.1]: , find me in app/views/user_mailer1/notify.text.erb
+2016-07-01T10:16:29.533712+00:00 app[web.1]: 
+2016-07-01T10:16:29.533713+00:00 app[web.1]: 
+2016-07-01T10:16:29.533713+00:00 app[web.1]: ----==_mimepart_577642fd7dde5_33f7e142be83824486
+2016-07-01T10:16:29.533713+00:00 app[web.1]: Content-Type: text/html;
+2016-07-01T10:16:29.533714+00:00 app[web.1]:  charset=UTF-8
+2016-07-01T10:16:29.533715+00:00 app[web.1]: 
+2016-07-01T10:16:29.533716+00:00 app[web.1]:   <body>
+2016-07-01T10:16:29.533717+00:00 app[web.1]:     
+2016-07-01T10:16:29.533715+00:00 app[web.1]: <html>
+2016-07-01T10:16:29.533717+00:00 app[web.1]: 
+2016-07-01T10:16:29.533719+00:00 app[web.1]: <p> Please use the below details to login to Petty cash.</p>
+2016-07-01T10:16:29.533718+00:00 app[web.1]: 
+2016-07-01T10:16:29.533718+00:00 app[web.1]: <h3>Hello vinod, <br> Welcome to Petty cash Management</h3>
+2016-07-01T10:16:29.533714+00:00 app[web.1]: Content-Transfer-Encoding: 7bit
+2016-07-01T10:16:29.533720+00:00 app[web.1]: Mobile number:
+2016-07-01T10:16:29.533721+00:00 app[web.1]: 8056637762</p>
+2016-07-01T10:16:29.533720+00:00 app[web.1]: <br><p>
+2016-07-01T10:16:29.533722+00:00 app[web.1]: Password:
+2016-07-01T10:16:29.533719+00:00 app[web.1]: 
+2016-07-01T10:16:29.533722+00:00 app[web.1]: vinodrey</p>
+2016-07-01T10:16:29.533721+00:00 app[web.1]: <br><p>
+[33m2016-07-01T10:16:29.535069+00:00 app[web.1]:[39m 
+[33m2016-07-01T10:16:29.535079+00:00 app[web.1]:[39m 
+[33m2016-07-01T10:16:29.535078+00:00 app[web.1]:[39m   app/controllers/users_controller.rb:13:in `create'
+2016-07-01T10:16:29.533723+00:00 app[web.1]: </html>
+2016-07-01T10:16:29.533723+00:00 app[web.1]:   </body>
+2016-07-01T10:16:29.533724+00:00 app[web.1]: ----==_mimepart_577642fd7dde5_33f7e142be83824486--
+2016-07-01T10:16:29.533724+00:00 app[web.1]: 
+[33m2016-07-01T10:16:29.533928+00:00 app[web.1]:[39m Completed 500 Internal Server Error in 408ms (ActiveRecord: 9.9ms)
+[33m2016-07-01T10:16:29.535077+00:00 app[web.1]:[39m Errno::ECONNREFUSED (Connection refused - connect(2) for "localhost" port 25):
+[33m2016-07-01T10:16:29.533725+00:00 app[web.1]:[39m 
+[33m2016-07-01T10:16:29.535079+00:00 app[web.1]:[39m 
+[32m2016-07-01T10:16:29.571362+00:00 heroku[router]:[39m at=info method=POST path="/users" host=petty-cash.herokuapp.com request_id=514333f5-98e4-4211-8665-62e79de5a4a3 fwd="115.111.129.98" dyno=web.1 connect=2ms service=488ms status=500 bytes=1669
+^C[?25h]0;altius@uror-09: ~/poombavai/petty_cashaltius@uror-09:~/poombavai/petty_cash$ [H[2J]0;altius@uror-09: ~/poombavai/petty_cashaltius@uror-09:~/poombavai/petty_cash$ vim app/[K[K[K[Kconfig/application.rb [K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kenvironments//development.rb 
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;44r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[44;1H"config/environments//development.rb" 55L, 2134C[>c[1;1H[32mRails[m.application.configure [33mdo[m
+  [34m# Settings specified here will take precedence over those in config/application.rb.
+
+[m  [34m# In the development environment your application's code is reloaded on
+[m  [34m# every request. This slows down response time but is perfect for development
+[m  [34m# since you don't have to restart the web server when you make code changes.[m
+  config.cache_classes = [31mfalse[m
+
+  [34m# Do not eager load code on boot.[m
+  config.eager_load = [31mfalse[m
+config.middleware.insert_after [32mActionDispatch[m::[32mStatic[m, [32mRack[m::[32mLiveReload[m
+
+config.middleware.insert_before [32mRack[m::[32mLock[m, [32mRack[m::[32mLiveReload[m
+  [34m# Show full error reports and disable caching.[m
+  config.consider_all_requests_local[7C= [31mtrue[m
+  config.action_controller.perform_caching = [31mfalse[m
+
+  [34m# Don't care if the mailer can't send.[m
+  config.action_mailer.raise_delivery_errors = [31mfalse[m
+
+  config.action_mailer.delivery_method = [31m:smtp[m
+  config.action_mailer.smtp_settings = {
+    [31m:address[m => [35m"[m[31msmtp.gmail.com[m[35m"[m,
+    [31m:port[m => [35m"[m[31m587[m[35m"[m,
+    [31m:domain[m => [35m"[m[31mgmail.com[m[35m"[m,
+    [31m:user_name[m => [35m"[m[31mwhiteplaast@gmail.com[m[35m"[m,
+    [31m:password[m => [35m"[m[31mwhiteplaast2016[m[35m"[m,
+    [31m:authentication[m => [35m"[m[31mlogin[m[35m"[m,
+    [31m:enable_starttls_auto[m => [31mtrue[m
+  }
+config.action_mailer.default_url_options = { [31m:host[m => [35m'[m[31m192.168.1.59[m[35m'[m,[32mPort[m:[31m3000[m }
+
+  [34m# Print deprecation notices to the Rails logger.[m
+  config.active_support.deprecation = [31m:log[m
+
+  [34m# Raise an error on page load if there are pending migrations.[m
+  config.active_record.migration_error = [31m:page_load[m
+
+  [34m# Debug mode disables concatenation and preprocessing of assets.
+[m  [34m# This option may cause significant delays in view rendering with a large
+[m  [34m# number of complex assets.[m
+  config.assets.debug = [31mtrue[m[44;109H1,1[11CTop[1;1H[?12l[?25h[?25l[44;109H2[2;1H[?12l[?25h[?25l[44;109H3,0-1[3;1H[?12l[?25h[?25l[44;109H4,1  [4;1H[?12l[?25h[?25l[44;109H5[5;1H[?12l[?25h[?25l[44;109H6[6;1H[?12l[?25h[?25l[44;109H7[7;1H[?12l[?25h[?25l[44;109H8,0-1[8;1H[?12l[?25h[?25l[44;109H9,1  [9;1H[?12l[?25h[?25l[44;109H10,1[10;1H[?12l[?25h[?25l[44;110H1[11;1H[?12l[?25h[?25l[44;110H2,0-1[12;1H[?12l[?25h[?25l[44;110H3,1  [13;1H[?12l[?25h[?25l[44;110H4[14;1H[?12l[?25h[?25l[44;110H5[15;1H[?12l[?25h[?25l[44;110H6[16;1H[?12l[?25h[?25l[44;110H7,0-1[17;1H[?12l[?25h[?25l[44;110H8,1  [18;1H[?12l[?25h[?25l[44;110H9[19;1H[?12l[?25h[?25l[44;109H20,0-1[20;1H[?12l[?25h[?25l[44;110H1,1  [21;1H[?12l[?25h[?25l[44;110H2[22;1H[?12l[?25h[?25l[44;110H3[23;1H[?12l[?25h[?25l[44;110H4[24;1H[?12l[?25h[?25l[44;110H5[25;1H[?12l[?25h[?25l[44;110H6[26;1H[?12l[?25h[?25l[44;110H7[27;1H[?12l[?25h[?25l[44;110H8[28;1H[?12l[?25h[?25l[44;110H9[29;1H[?12l[?25h[?25l[44;109H30[30;1H[?12l[?25h[?25l[44;112H2[30;2H[?12l[?25h[?25l[22;40H[46m{[30;3H}[m[44;112H3[30;3H[?12l[?25h[?25l[22;40H{[30;3H}[44;110H1[31;3H[?12l[?25h[?25l[44;112H4[31;4H[?12l[?25h[?25l[44;112H5[31;5H[?12l[?25h[?25l[44;112H6[31;6H[?12l[?25h[?25l[44;112H5[31;5H[?12l[?25h[?25l[44;110H2,0-1[32;1H[?12l[?25h[?25l[44;110H1,5  [31;5H[?12l[?25h[?25l[44;112H4[31;4H[?12l[?25h[?25l[44;112H3[31;3H[?12l[?25h[?25l[44;112H2[31;2H[?12l[?25h[?25l[44;112H1[31;1H[?12l[?25h[?25l[44;112H2[31;2H[?12l[?25h[?25l[44;112H3[31;3H[?12l[?25h[?25l[44;112H4[31;4H[?12l[?25h[?25l[44;112H5[31;5H[?12l[?25h[?25l[44;112H6[31;6H[?12l[?25h[?25l[44;112H7[31;7H[?12l[?25h[?25l[44;112H8[31;8H[?12l[?25h[?25l[44;112H9[31;9H[?12l[?25h[?25l[44;112H10[31;10H[?12l[?25h[?25l[44;113H1[31;11H[?12l[?25h[?25l[44;113H2[31;12H[?12l[?25h[?25l[44;113H3[31;13H[?12l[?25h[?25l[44;113H4[31;14H[?12l[?25h[?25l[44;113H5[31;15H[?12l[?25h[?25l[44;113H6[31;16H[?12l[?25h[?25l[44;113H7[31;17H[?12l[?25h[?25l[44;113H8[31;18H[?12l[?25h[?25l[44;113H9[31;19H[?12l[?25h[?25l[44;112H20[31;20H[?12l[?25h[?25l[44;113H1[31;21H[?12l[?25h[?25l[44;113H2[31;22H[?12l[?25h[?25l[44;113H3[31;23H[?12l[?25h[?25l[44;113H4[31;24H[?12l[?25h[?25l[44;113H5[31;25H[?12l[?25h[?25l[44;113H6[31;26H[?12l[?25h[?25l[44;113H7[31;27H[?12l[?25h[?25l[44;113H8[31;28H[?12l[?25h[?25l[44;113H9[31;29H[?12l[?25h[?25l[44;112H30[31;30H[?12l[?25h[?25l[44;113H1[31;31H[?12l[?25h[?25l[44;113H2[31;32H[?12l[?25h[?25l[44;113H3[31;33H[?12l[?25h[?25l[44;113H4[31;34H[?12l[?25h[?25l[44;113H5[31;35H[?12l[?25h[?25l[44;113H6[31;36H[?12l[?25h[?25l[44;113H7[31;37H[?12l[?25h[?25l[44;113H8[31;38H[?12l[?25h[?25l[44;113H9[31;39H[?12l[?25h[?25l[44;112H40[31;40H[?12l[?25h[?25l[44;113H1[31;41H[?12l[?25h[?25l[44;113H2[31;42H[?12l[?25h[?25l[44;113H3[31;43H[?12l[?25h[?25l [46m{[35C}[m[44;113H4[31;44H[?12l[?25h[?25l{[35C}[44;113H5[31;45H[?12l[?25h[?25l[44;113H6[31;46H[?12l[?25h[?25l[44;113H7[31;47H[?12l[?25h[?25l[44;113H8[31;48H[?12l[?25h[?25l[44;113H9[31;49H[?12l[?25h[?25l[44;112H50[31;50H[?12l[?25h[?25l[44;113H1[31;51H[?12l[?25h[?25l[44;113H2[31;52H[?12l[?25h[?25l[44;113H3[31;53H[?12l[?25h[?25l[44;113H4[31;54H[?12l[?25h[?25l[44;113H5[31;55H[?12l[?25h[?25l[44;113H6[31;56H[?12l[?25h[?25l[44;113H7[31;57H[?12l[?25h[?25l[44;113H8[31;58H[?12l[?25h[?25l[44;113H9[31;59H[?12l[?25h[?25l[44;112H60[31;60H[?12l[?25h[?25l[44;113H1[31;61H[?12l[?25h[?25l[44;113H2[31;62H[?12l[?25h[?25l[44;113H3[31;63H[?12l[?25h[?25l[44;113H4[31;64H[?12l[?25h[?25l[44;113H5[31;65H[?12l[?25h[?25l[44;110H2,0-1[32;1H[?12l[?25h[?25l[44;110H3,50 [33;50H[?12l[?25h[?25l[44;110H4,42[34;42H[?12l[?25h[?25l[44;110H5,0-1[35;1H[?12l[?25h[?25l[44;110H6,64 [36;64H[?12l[?25h[?25l[44;110H7,51[37;51H[?12l[?25h[?25l[44;110H8,0-1[38;1H[?12l[?25h[?25l[44;1H[K[44;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[44;1H[K[44;1H[?1l>[?12l[?25h[?1049l]0;altius@uror-09: ~/poombavai/petty_cashaltius@uror-09:~/poombavai/petty_cash$ heroku rails c[C[C[1@r[1@u[1@n[1@ [C[C[C[C[C[C[C
+[1000D[2K[?25lRunning [36m[1mrails c[22m[39m on [35m⬢ petty-cash[39m... [35m⣾[39m 
+[1A[35C[35m⣽[39m[1B[1000D[2K[1A[35C[35m⣻[39m[1B[1000D[2K[1A[35C[35m⢿[39m[1B[1000D[2K[1A[35C[35m⡿[39m[1B[1000D[2K[1A[35C[35m⣟[39m[1B[1000D[2K[1A[35C[35m⣯[39m[1B[1000D[2K[1A[35C[35m⣷[39m[1B[1000D[2K[1A[35C[35m⣾[39m[1B[1000D[2K[1A[35C[35m⣽[39m[1B[1000D[2K[1A[35C[35m⣻[39m[1B[1000D[2K[1A[35C[35m⢿[39m[1B[1000D[2K[1A[35C[35m⡿[39m[1B[1000D[2K[1A[35C[35m⣟[39m[1B[1000D[2K[1A[35C[35m⣯[39m[1B[1000D[2K[1A[35C[35m⣷[39m[1B[1000D[2K[1A[35C[35m⣾[39m[1B[1000D[2K[1A[35C[35m⣽[39m[1B[1000D[2K[1A[35C[35m⣻[39m[1B[1000D[2K[1A[35C[35m⢿[39m[1B[1000D[2K[1A[35C[35m⡿[39m[1B[1000D[2K[1A[35C[35m⣟[39m[1B[1000D[2K[1A[JRunning [36m[1mrails c[22m[39m on [35m⬢ petty-cash[39m

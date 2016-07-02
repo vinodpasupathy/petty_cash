@@ -15,17 +15,18 @@
 
 	<table border="2">
 <tr>
+<th>Opening Balance</th>
 <th>Date</th>
 <th>Received Amount</th>
 <th>Expense</th>
 <th>Balance in Hand</th>
-<th>Opening Balance</th>
 </tr>
 
 <%opn_bal=0%>
 <tr>
 <td><%= Date.today %></td>
-<!--td data-toggle="modal" data-target="#myModal" style = cursor:pointer; align = "right"--><td align = "right"><%= a = amt %></td>
+<!--td data-toggle="modal" data-target="#myModal" style = cursor:pointer; align = "right"-->
+<td align = "right"><%= a = amt %></td>
 
 <td  align = "right"><%= b = tot_exp %></td>
 <% g = a-b %>
