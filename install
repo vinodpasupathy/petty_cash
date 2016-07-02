@@ -293,4 +293,197 @@ config.action_mailer.default_url_options = { [31m:host[m => [35m'[m[31m192.
 [m  [34m# number of complex assets.[m
   config.assets.debug = [31mtrue[m[44;109H1,1[11CTop[1;1H[?12l[?25h[?25l[44;109H2[2;1H[?12l[?25h[?25l[44;109H3,0-1[3;1H[?12l[?25h[?25l[44;109H4,1  [4;1H[?12l[?25h[?25l[44;109H5[5;1H[?12l[?25h[?25l[44;109H6[6;1H[?12l[?25h[?25l[44;109H7[7;1H[?12l[?25h[?25l[44;109H8,0-1[8;1H[?12l[?25h[?25l[44;109H9,1  [9;1H[?12l[?25h[?25l[44;109H10,1[10;1H[?12l[?25h[?25l[44;110H1[11;1H[?12l[?25h[?25l[44;110H2,0-1[12;1H[?12l[?25h[?25l[44;110H3,1  [13;1H[?12l[?25h[?25l[44;110H4[14;1H[?12l[?25h[?25l[44;110H5[15;1H[?12l[?25h[?25l[44;110H6[16;1H[?12l[?25h[?25l[44;110H7,0-1[17;1H[?12l[?25h[?25l[44;110H8,1  [18;1H[?12l[?25h[?25l[44;110H9[19;1H[?12l[?25h[?25l[44;109H20,0-1[20;1H[?12l[?25h[?25l[44;110H1,1  [21;1H[?12l[?25h[?25l[44;110H2[22;1H[?12l[?25h[?25l[44;110H3[23;1H[?12l[?25h[?25l[44;110H4[24;1H[?12l[?25h[?25l[44;110H5[25;1H[?12l[?25h[?25l[44;110H6[26;1H[?12l[?25h[?25l[44;110H7[27;1H[?12l[?25h[?25l[44;110H8[28;1H[?12l[?25h[?25l[44;110H9[29;1H[?12l[?25h[?25l[44;109H30[30;1H[?12l[?25h[?25l[44;112H2[30;2H[?12l[?25h[?25l[22;40H[46m{[30;3H}[m[44;112H3[30;3H[?12l[?25h[?25l[22;40H{[30;3H}[44;110H1[31;3H[?12l[?25h[?25l[44;112H4[31;4H[?12l[?25h[?25l[44;112H5[31;5H[?12l[?25h[?25l[44;112H6[31;6H[?12l[?25h[?25l[44;112H5[31;5H[?12l[?25h[?25l[44;110H2,0-1[32;1H[?12l[?25h[?25l[44;110H1,5  [31;5H[?12l[?25h[?25l[44;112H4[31;4H[?12l[?25h[?25l[44;112H3[31;3H[?12l[?25h[?25l[44;112H2[31;2H[?12l[?25h[?25l[44;112H1[31;1H[?12l[?25h[?25l[44;112H2[31;2H[?12l[?25h[?25l[44;112H3[31;3H[?12l[?25h[?25l[44;112H4[31;4H[?12l[?25h[?25l[44;112H5[31;5H[?12l[?25h[?25l[44;112H6[31;6H[?12l[?25h[?25l[44;112H7[31;7H[?12l[?25h[?25l[44;112H8[31;8H[?12l[?25h[?25l[44;112H9[31;9H[?12l[?25h[?25l[44;112H10[31;10H[?12l[?25h[?25l[44;113H1[31;11H[?12l[?25h[?25l[44;113H2[31;12H[?12l[?25h[?25l[44;113H3[31;13H[?12l[?25h[?25l[44;113H4[31;14H[?12l[?25h[?25l[44;113H5[31;15H[?12l[?25h[?25l[44;113H6[31;16H[?12l[?25h[?25l[44;113H7[31;17H[?12l[?25h[?25l[44;113H8[31;18H[?12l[?25h[?25l[44;113H9[31;19H[?12l[?25h[?25l[44;112H20[31;20H[?12l[?25h[?25l[44;113H1[31;21H[?12l[?25h[?25l[44;113H2[31;22H[?12l[?25h[?25l[44;113H3[31;23H[?12l[?25h[?25l[44;113H4[31;24H[?12l[?25h[?25l[44;113H5[31;25H[?12l[?25h[?25l[44;113H6[31;26H[?12l[?25h[?25l[44;113H7[31;27H[?12l[?25h[?25l[44;113H8[31;28H[?12l[?25h[?25l[44;113H9[31;29H[?12l[?25h[?25l[44;112H30[31;30H[?12l[?25h[?25l[44;113H1[31;31H[?12l[?25h[?25l[44;113H2[31;32H[?12l[?25h[?25l[44;113H3[31;33H[?12l[?25h[?25l[44;113H4[31;34H[?12l[?25h[?25l[44;113H5[31;35H[?12l[?25h[?25l[44;113H6[31;36H[?12l[?25h[?25l[44;113H7[31;37H[?12l[?25h[?25l[44;113H8[31;38H[?12l[?25h[?25l[44;113H9[31;39H[?12l[?25h[?25l[44;112H40[31;40H[?12l[?25h[?25l[44;113H1[31;41H[?12l[?25h[?25l[44;113H2[31;42H[?12l[?25h[?25l[44;113H3[31;43H[?12l[?25h[?25l [46m{[35C}[m[44;113H4[31;44H[?12l[?25h[?25l{[35C}[44;113H5[31;45H[?12l[?25h[?25l[44;113H6[31;46H[?12l[?25h[?25l[44;113H7[31;47H[?12l[?25h[?25l[44;113H8[31;48H[?12l[?25h[?25l[44;113H9[31;49H[?12l[?25h[?25l[44;112H50[31;50H[?12l[?25h[?25l[44;113H1[31;51H[?12l[?25h[?25l[44;113H2[31;52H[?12l[?25h[?25l[44;113H3[31;53H[?12l[?25h[?25l[44;113H4[31;54H[?12l[?25h[?25l[44;113H5[31;55H[?12l[?25h[?25l[44;113H6[31;56H[?12l[?25h[?25l[44;113H7[31;57H[?12l[?25h[?25l[44;113H8[31;58H[?12l[?25h[?25l[44;113H9[31;59H[?12l[?25h[?25l[44;112H60[31;60H[?12l[?25h[?25l[44;113H1[31;61H[?12l[?25h[?25l[44;113H2[31;62H[?12l[?25h[?25l[44;113H3[31;63H[?12l[?25h[?25l[44;113H4[31;64H[?12l[?25h[?25l[44;113H5[31;65H[?12l[?25h[?25l[44;110H2,0-1[32;1H[?12l[?25h[?25l[44;110H3,50 [33;50H[?12l[?25h[?25l[44;110H4,42[34;42H[?12l[?25h[?25l[44;110H5,0-1[35;1H[?12l[?25h[?25l[44;110H6,64 [36;64H[?12l[?25h[?25l[44;110H7,51[37;51H[?12l[?25h[?25l[44;110H8,0-1[38;1H[?12l[?25h[?25l[44;1H[K[44;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[44;1H[K[44;1H[?1l>[?12l[?25h[?1049l]0;altius@uror-09: ~/poombavai/petty_cashaltius@uror-09:~/poombavai/petty_cash$ heroku rails c[C[C[1@r[1@u[1@n[1@ [C[C[C[C[C[C[C
 [1000D[2K[?25lRunning [36m[1mrails c[22m[39m on [35m⬢ petty-cash[39m... [35m⣾[39m 
-[1A[35C[35m⣽[39m[1B[1000D[2K[1A[35C[35m⣻[39m[1B[1000D[2K[1A[35C[35m⢿[39m[1B[1000D[2K[1A[35C[35m⡿[39m[1B[1000D[2K[1A[35C[35m⣟[39m[1B[1000D[2K[1A[35C[35m⣯[39m[1B[1000D[2K[1A[35C[35m⣷[39m[1B[1000D[2K[1A[35C[35m⣾[39m[1B[1000D[2K[1A[35C[35m⣽[39m[1B[1000D[2K[1A[35C[35m⣻[39m[1B[1000D[2K[1A[35C[35m⢿[39m[1B[1000D[2K[1A[35C[35m⡿[39m[1B[1000D[2K[1A[35C[35m⣟[39m[1B[1000D[2K[1A[35C[35m⣯[39m[1B[1000D[2K[1A[35C[35m⣷[39m[1B[1000D[2K[1A[35C[35m⣾[39m[1B[1000D[2K[1A[35C[35m⣽[39m[1B[1000D[2K[1A[35C[35m⣻[39m[1B[1000D[2K[1A[35C[35m⢿[39m[1B[1000D[2K[1A[35C[35m⡿[39m[1B[1000D[2K[1A[35C[35m⣟[39m[1B[1000D[2K[1A[JRunning [36m[1mrails c[22m[39m on [35m⬢ petty-cash[39m
+[1A[35C[35m⣽[39m[1B[1000D[2K[1A[35C[35m⣻[39m[1B[1000D[2K[1A[35C[35m⢿[39m[1B[1000D[2K[1A[35C[35m⡿[39m[1B[1000D[2K[1A[35C[35m⣟[39m[1B[1000D[2K[1A[35C[35m⣯[39m[1B[1000D[2K[1A[35C[35m⣷[39m[1B[1000D[2K[1A[35C[35m⣾[39m[1B[1000D[2K[1A[35C[35m⣽[39m[1B[1000D[2K[1A[35C[35m⣻[39m[1B[1000D[2K[1A[35C[35m⢿[39m[1B[1000D[2K[1A[35C[35m⡿[39m[1B[1000D[2K[1A[35C[35m⣟[39m[1B[1000D[2K[1A[35C[35m⣯[39m[1B[1000D[2K[1A[35C[35m⣷[39m[1B[1000D[2K[1A[35C[35m⣾[39m[1B[1000D[2K[1A[35C[35m⣽[39m[1B[1000D[2K[1A[35C[35m⣻[39m[1B[1000D[2K[1A[35C[35m⢿[39m[1B[1000D[2K[1A[35C[35m⡿[39m[1B[1000D[2K[1A[35C[35m⣟[39m[1B[1000D[2K[1A[JRunning [36m[1mrails c[22m[39m on [35m⬢ petty-cash[39m... [35m⣯[39m starting, run.6025
+[1A[35C[35m⣷[39m[1B[1000D[2K[1A[35C[35m⣾[39m[1B[1000D[2K[1A[35C[35m⣽[39m[1B[1000D[2K[1A[35C[35m⣻[39m[1B[1000D[2K[1A[35C[35m⢿[39m[1B[1000D[2K[1A[35C[35m⡿[39m[1B[1000D[2K[1A[35C[35m⣟[39m[1B[1000D[2K[1A[35C[35m⣯[39m[1B[1000D[2K[1A[35C[35m⣷[39m[1B[1000D[2K[1A[35C[35m⣾[39m[1B[1000D[2K[1A[35C[35m⣽[39m[1B[1000D[2K[1A[35C[35m⣻[39m[1B[1000D[2K[1A[35C[35m⢿[39m[1B[1000D[2K[1A[35C[35m⡿[39m[1B[1000D[2K[1A[35C[35m⣟[39m[1B[1000D[2K[1A[JRunning [36m[1mrails c[22m[39m on [35m⬢ petty-cash[39m... [35m⣯[39m connecting, run.6025
+[1A[35C[35m⣷[39m[1B[1000D[2K[1A[35C[35m⣾[39m[1B[1000D[2K[1A[35C[35m⣽[39m[1B[1000D[2K[1A[35C[35m⣻[39m[1B[1000D[2K[1A[35C[35m⢿[39m[1B[1000D[2K[1A[35C[35m⡿[39m[1B[1000D[2K[1A[35C[35m⣟[39m[1B[1000D[2K[1A[35C[35m⣯[39m[1B[1000D[2K[1A[35C[35m⣷[39m[1B[1000D[2K[1A[35C[35m⣾[39m[1B[1000D[2K[1A[35C[35m⣽[39m[1B[1000D[2K[1A[35C[35m⣻[39m[1B[1000D[2K[1A[35C[35m⢿[39m[1B[1000D[2K[1A[35C[35m⡿[39m[1B[1000D[2K[1A[35C[35m⣟[39m[1B[1000D[2K[1A[35C[35m⣯[39m[1B[1000D[2K[1A[35C[35m⣷[39m[1B[1000D[2K[1A[35C[35m⣾[39m[1B[1000D[2K[1A[35C[35m⣽[39m[1B[1000D[2K[1A[35C[35m⣻[39m[1B[1000D[2K[1A[35C[35m⢿[39m[1B[1000D[2K[1A[35C[35m⡿[39m[1B[1000D[2K[1A[35C[35m⣟[39m[1B[1000D[2K[1A[35C[35m⣯[39m[1B[1000D[2K[1A[35C[35m⣷[39m[1B[1000D[2K[1A[35C[35m⣾[39m[1B[1000D[2K[1A[35C[35m⣽[39m[1B[1000D[2K[1A[35C[35m⣻[39m[1B[1000D[2K[1A[35C[35m⢿[39m[1B[1000D[2K[1A[35C[35m⡿[39m[1B[1000D[2K[1A[35C[35m⣟[39m[1B[1000D[2K[1A[35C[35m⣯[39m[1B[1000D[2K[1A[35C[35m⣷[39m[1B[1000D[2K[1A[35C[35m⣾[39m[1B[1000D[2K[1A[35C[35m⣽[39m[1B[1000D[2K[1A[35C[35m⣻[39m[1B[1000D[2K[1A[35C[35m⢿[39m[1B[1000D[2K[1A[35C[35m⡿[39m[1B[1000D[2K[1A[35C[35m⣟[39m[1B[1000D[2K[1A[JRunning [36m[1mrails c[22m[39m on [35m⬢ petty-cash[39m... up, run.6025
+[?25hDEPRECATION WARNING: The configuration option `config.serve_static_assets` has been renamed to `config.serve_static_files` to clarify its role (it merely enables serving everything in the `public` folder and is unrelated to the asset pipeline). The `serve_static_assets` alias will be removed in Rails 5.0. Please migrate your configuration files accordingly. (called from <class:Application> at /app/config/application.rb:24)
+Loading production environment (Rails 4.2.5.2)
+irb(main):001:0> User.last
+  [1m[36mUser Load (2.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[36mUser Load (2.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1[0m
+=> #<User id: 2, name: "vinod", password: "vinodrey", email: "vinodpasupathy@gmail.com", created_at: "2016-07-01 10:16:29", updated_at: "2016-07-01 10:16:29", role: "Admin", phone: "8056637762", user_status: "active">
+irb(main):002:0> exit
+[?25h]0;altius@uror-09: ~/poombavai/petty_cashaltius@uror-09:~/poombavai/petty_cash$ [H[2J]0;altius@uror-09: ~/poombavai/petty_cashaltius@uror-09:~/poombavai/petty_cash$ [K]0;altius@uror-09: ~/poombavai/petty_cashaltius@uror-09:~/poombavai/petty_cash$ raikls c[K[K[K[K[K[K[Kails c
+' \
+^C/usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/basic_specification.rb:197:in `loaded_from=': Interrupt
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/specification.rb:1948:in `loaded_from='
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/specification.rb:1840:in `initialize'
+	from /usr/local/rvm/gems/ruby-2.2.3/specifications/erubis-2.7.0.gemspec:4:in `new'
+	from /usr/local/rvm/gems/ruby-2.2.3/specifications/erubis-2.7.0.gemspec:4:in `load'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/specification.rb:1043:in `eval'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/specification.rb:1043:in `load'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/stub_specification.rb:167:in `to_spec'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler/stub_specification.rb:21:in `_remote_specification'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler/remote_specification.rb:79:in `method_missing'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler/spec_set.rb:151:in `tsort_each_child'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/tsort.rb:413:in `call'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/tsort.rb:413:in `each_strongly_connected_component_from'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/tsort.rb:419:in `block in each_strongly_connected_component_from'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler/spec_set.rb:153:in `block (2 levels) in tsort_each_child'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler/spec_set.rb:153:in `each'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler/spec_set.rb:153:in `block in tsort_each_child'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler/spec_set.rb:151:in `each'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler/spec_set.rb:151:in `tsort_each_child'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/tsort.rb:413:in `call'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/tsort.rb:413:in `each_strongly_connected_component_from'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/tsort.rb:419:in `block in each_strongly_connected_component_from'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler/spec_set.rb:153:in `block (2 levels) in tsort_each_child'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler/spec_set.rb:153:in `each'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler/spec_set.rb:153:in `block in tsort_each_child'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler/spec_set.rb:151:in `each'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler/spec_set.rb:151:in `tsort_each_child'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/tsort.rb:413:in `call'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/tsort.rb:413:in `each_strongly_connected_component_from'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/tsort.rb:419:in `block in each_strongly_connected_component_from'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler/spec_set.rb:153:in `block (2 levels) in tsort_each_child'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler/spec_set.rb:153:in `each'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler/spec_set.rb:153:in `block in tsort_each_child'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler/spec_set.rb:151:in `each'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler/spec_set.rb:151:in `tsort_each_child'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/tsort.rb:413:in `call'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/tsort.rb:413:in `each_strongly_connected_component_from'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/tsort.rb:347:in `block in each_strongly_connected_component'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler/spec_set.rb:147:in `block in tsort_each_node'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler/spec_set.rb:147:in `each'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler/spec_set.rb:147:in `tsort_each_node'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/tsort.rb:345:in `call'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/tsort.rb:345:in `each_strongly_connected_component'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/tsort.rb:224:in `tsort_each'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/tsort.rb:174:in `each'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/tsort.rb:174:in `to_a'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/tsort.rb:174:in `tsort'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/tsort.rb:150:in `tsort'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler/spec_set.rb:116:in `sorted'
+	from /usr/local/rvm/gems/ruby-2.2.3@global/gems/rubygems-bundler-1.4.4/lib/rubygems-bundler/noexec.rb:59:in `detect'
+	from /usr/local/rvm/gems/ruby-2.2.3@global/gems/rubygems-bundler-1.4.4/lib/rubygems-bundler/noexec.rb:59:in `candidate?'
+	from /usr/local/rvm/gems/ruby-2.2.3@global/gems/rubygems-bundler-1.4.4/lib/rubygems-bundler/noexec.rb:92:in `setup'
+	from /usr/local/rvm/gems/ruby-2.2.3@global/gems/rubygems-bundler-1.4.4/lib/rubygems-bundler/noexec.rb:124:in `check'
+	from /usr/local/rvm/gems/ruby-2.2.3@global/gems/rubygems-bundler-1.4.4/lib/rubygems-bundler/noexec.rb:131:in `<top (required)>'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:128:in `require'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:128:in `rescue in require'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:39:in `require'
+	from /usr/local/rvm/gems/ruby-2.2.3@global/gems/rubygems-bundler-1.4.4/lib/rubygems_executable_plugin.rb:4:in `block in <top (required)>'
+	from /usr/local/rvm/gems/ruby-2.2.3@global/gems/executable-hooks-1.3.2/lib/executable-hooks/hooks.rb:50:in `call'
+	from /usr/local/rvm/gems/ruby-2.2.3@global/gems/executable-hooks-1.3.2/lib/executable-hooks/hooks.rb:50:in `block in run'
+	from /usr/local/rvm/gems/ruby-2.2.3@global/gems/executable-hooks-1.3.2/lib/executable-hooks/hooks.rb:49:in `each'
+	from /usr/local/rvm/gems/ruby-2.2.3@global/gems/executable-hooks-1.3.2/lib/executable-hooks/hooks.rb:49:in `run'
+	from /usr/local/rvm/gems/ruby-2.2.3/bin/ruby_executable_hooks:10:in `<main>'
+
+]0;altius@uror-09: ~/poombavai/petty_cashaltius@uror-09:~/poombavai/petty_cash$ rails c
+^L^C/usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require': Interrupt
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/socket.rb:1:in `<top (required)>'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/net/protocol.rb:21:in `<top (required)>'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/net/http.rb:22:in `<top (required)>'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/request.rb:1:in `<top (required)>'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/remote_fetcher.rb:2:in `<top (required)>'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler/gem_remote_fetcher.rb:2:in `<top (required)>'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler.rb:7:in `<top (required)>'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/bundler-1.12.5/lib/bundler/setup.rb:5:in `<top (required)>'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+
+]0;altius@uror-09: ~/poombavai/petty_cashaltius@uror-09:~/poombavai/petty_cash$ [H[2J]0;altius@uror-09: ~/poombavai/petty_cashaltius@uror-09:~/poombavai/petty_cash$ rails c
+DEPRECATION WARNING: The configuration option `config.serve_static_assets` has been renamed to `config.serve_static_files` to clarify its role (it merely enables serving everything in the `public` folder and is unrelated to the asset pipeline). The `serve_static_assets` alias will be removed in Rails 5.0. Please migrate your configuration files accordingly. (called from <class:Application> at /home/altius/poombavai/petty_cash/config/application.rb:24)
+Loading development environment (Rails 4.2.5.2)
+2.2.3 :001 > User.all
+PG::ConnectionBad: could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/run/postgresql/.s.PGSQL.5432"?
+
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/postgresql_adapter.rb:651:in `initialize'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/postgresql_adapter.rb:651:in `new'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/postgresql_adapter.rb:651:in `connect'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/postgresql_adapter.rb:242:in `initialize'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `new'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `postgresql_connection'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_handling.rb:87:in `connection'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/querying.rb:39:in `find_by_sql'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/relation.rb:639:in `exec_queries'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/relation.rb:515:in `load'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/relation.rb:243:in `to_a'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/relation.rb:630:in `inspect'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/railties-4.2.5.2/lib/rails/commands/console.rb:110:in `start'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/railties-4.2.5.2/lib/rails/commands/console.rb:9:in `start'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/railties-4.2.5.2/lib/rails/commands.rb:17:in `<top (required)>'
+	from bin/rails:4:in `require'
+	from bin/rails:4:in `<main>'2.2.3 :002 > ^C
+2.2.3 :002 > ^C
+2.2.3 :002 > [H[2J2.2.3 :002 > User.all
+PG::ConnectionBad: could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/run/postgresql/.s.PGSQL.5432"?
+
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/postgresql_adapter.rb:651:in `initialize'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/postgresql_adapter.rb:651:in `new'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/postgresql_adapter.rb:651:in `connect'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/postgresql_adapter.rb:242:in `initialize'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `new'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `postgresql_connection'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+	from /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/connection_handling.rb:87:in `connection'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/querying.rb:39:in `find_by_sql'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/relation.rb:639:in `exec_queries'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/relation.rb:515:in `load'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/relation.rb:243:in `to_a'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/relation.rb:630:in `inspect'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/railties-4.2.5.2/lib/rails/commands/console.rb:110:in `start'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/railties-4.2.5.2/lib/rails/commands/console.rb:9:in `start'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/railties-4.2.5.2/lib/rails/commands.rb:17:in `<top (required)>'
+	from bin/rails:4:in `require'
+	from bin/rails:4:in `<main>'2.2.3 :003 >    ^C
+2.2.3 :003 > eit
+NameError: undefined local variable or method `eit' for main:Object
+	from (irb):3
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/railties-4.2.5.2/lib/rails/commands/console.rb:110:in `start'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/railties-4.2.5.2/lib/rails/commands/console.rb:9:in `start'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/railties-4.2.5.2/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /usr/local/rvm/gems/ruby-2.2.3/gems/railties-4.2.5.2/lib/rails/commands.rb:17:in `<top (required)>'
+	from bin/rails:4:in `require'
+	from bin/rails:4:in `<main>'
+2.2.3 :004 > exit
+]0;altius@uror-09: ~/poombavai/petty_cashaltius@uror-09:~/poombavai/petty_cash$ hr[Keroku run rails c
+[1000D[2K[?25lRunning [36m[1mrails c[22m[39m on [35m⬢ petty-cash[39m... [35m⣾[39m 
+[1A[35C[35m⣽[39m[1B[1000D[2K[1A[35C[35m⣻[39m[1B[1000D[2K[1A[35C[35m⢿[39m[1B[1000D[2K[1A[35C[35m⡿[39m[1B[1000D[2K[1A[35C[35m⣟[39m[1B[1000D[2K[1A[35C[35m⣯[39m[1B[1000D[2K[1A[35C[35m⣷[39m[1B[1000D[2K[1A[35C[35m⣾[39m[1B[1000D[2K[1A[35C[35m⣽[39m[1B[1000D[2K[1A[35C[35m⣻[39m[1B[1000D[2K[1A[35C[35m⢿[39m[1B[1000D[2K[1A[35C[35m⡿[39m[1B[1000D[2K[1A[35C[35m⣟[39m[1B[1000D[2K[1A[35C[35m⣯[39m[1B[1000D[2K[1A[35C[35m⣷[39m[1B[1000D[2K[1A[35C[35m⣾[39m[1B[1000D[2K[1A[35C[35m⣽[39m[1B[1000D[2K[1A[35C[35m⣻[39m[1B[1000D[2K[1A[35C[35m⢿[39m[1B[1000D[2K[1A[JRunning [36m[1mrails c[22m[39m on [35m⬢ petty-cash[39m... [35m⡿[39m starting, run.2912
+[1A[35C[35m⣟[39m[1B[1000D[2K[1A[35C[35m⣯[39m[1B[1000D[2K[1A[35C[35m⣷[39m[1B[1000D[2K[1A[35C[35m⣾[39m[1B[1000D[2K[1A[35C[35m⣽[39m[1B[1000D[2K[1A[35C[35m⣻[39m[1B[1000D[2K[1A[35C[35m⢿[39m[1B[1000D[2K[1A[35C[35m⡿[39m[1B[1000D[2K[1A[35C[35m⣟[39m[1B[1000D[2K[1A[35C[35m⣯[39m[1B[1000D[2K[1A[35C[35m⣷[39m[1B[1000D[2K[1A[35C[35m⣾[39m[1B[1000D[2K[1A[35C[35m⣽[39m[1B[1000D[2K[1A[JRunning [36m[1mrails c[22m[39m on [35m⬢ petty-cash[39m... [35m⣻[39m connecting, run.2912
+[1A[35C[35m⢿[39m[1B[1000D[2K[1A[35C[35m⡿[39m[1B[1000D[2K[1A[35C[35m⣟[39m[1B[1000D[2K[1A[35C[35m⣯[39m[1B[1000D[2K[1A[35C[35m⣷[39m[1B[1000D[2K[1A[35C[35m⣾[39m[1B[1000D[2K[1A[35C[35m⣽[39m[1B[1000D[2K[1A[35C[35m⣻[39m[1B[1000D[2K[1A[35C[35m⢿[39m[1B[1000D[2K[1A[35C[35m�
