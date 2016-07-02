@@ -10,7 +10,7 @@ class UsersController < ApplicationController
 		@user = User.new(user_params)
 		@user.user_status = "active"
 		if @user.save
-			UserMailer1.notify(@user).deliver
+		#	UserMailer1.notify(@user).deliver
 			flash[:notice] = "User saved successfully!!"
 			redirect_to :action => "user_index"
 		else
