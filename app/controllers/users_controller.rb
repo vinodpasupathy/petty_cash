@@ -74,7 +74,7 @@ class UsersController < ApplicationController
 
 	def claim_page
 	    @user = User.new
-	    @user = User.find(session[:user_id]).name
+	    @user = User.find(session[:user_id])
 
 		@expense = Expense.new
  		@expense.voucher = params[:file]
@@ -131,63 +131,50 @@ class UsersController < ApplicationController
 		@expense1 = Expense.where(:claim_status => "Need Approval").order("date ASC")
 	end
 
+	def claim_index_financier
+		@debit = Debit.where(:date => ("#{Date.today.year}-#{Date.today.strftime('%m')}-01")..("#{Date.today.year}-#{Date.today.strftime('%m')}-31"))
+		@expens = Expense.where(:claim_status => nil).where.not(:expense_type => "Cash in Advance")
+		@expense1 = @expens.where.not(:expense_type => "Advance return").order("date ASC")
+	end
+
 	def claim_history
+       	@expen = Expense.new
+		exp = Expense.where.not(:claim_status => nil, :claim_status => "Need Approval").order("created_at DESC")
 		if params[:commit] == "Get history"
             val = params[:commit]
-			@expen = Expense.new
 			name = params[:expense][:claimed_by]
 			type = params[:expense][:expense_type]
 			f_date = params[:expense][:from_date]
 			t_date = params[:expense][:to_date]
-			exp = Expense.where.not(:claim_status => nil)
-		    if name == "" && f_date != ""
+			if name == "" && type == "" && f_date == "" && t_date == ""
+               	@expense=exp
+            elsif name == "" && f_date != ""
                 if type == ""
-                    @expense=exp.where(:date=>f_date..t_date).where.not(:claim_status => "Need Approval").order("created_at DESC")
+                    @expense=exp.where(:date=>f_date..t_date)
                 else
-                    @expense= exp.where(:expense_type=>type).where(:date=>f_date..t_date).where.not(:claim_status => "Need Approval").order("created_at DESC")
+                    @expense= exp.where(:expense_type=>type).where(:date=>f_date..t_date)
             	end
             elsif type == "" && f_date != ""
                	if name == ""
-                    @expense=exp.where(:date=>f_date..t_date).where.not(:claim_status => "Need Approval").order("created_at DESC")
+                    @expense=exp.where(:date=>f_date..t_date)
                 else
-                    @expense=exp.where(:claimed_by=>name).where(:date=>f_date..t_date).where.not(:claim_status => "Need Approval").order("created_at DESC")
+                    @expense=exp.where(:claimed_by=>name).where(:date=>f_date..t_date)
                 end
             elsif name == "" && f_date == ""
-                @expense=exp.where(:expense_type=>type).where.not(:claim_status => "Need Approval").order("created_at DESC")
+            	@expense=exp.where(:expense_type=>type)
 			elsif type == "" && f_date == ""
-		   		@expense=exp.where(:claimed_by=>name).where.not(:claim_status => "Need Approval").order("created_at DESC")
+		   		@expense=exp.where(:claimed_by=>name)
             elsif f_date ==  "" &&  t_date == ""
-                @expense=exp.where(:claimed_by=>name).where(:expense_type=>type).where.not(:claim_status => "Need Approval").order("created_at DESC")
+                @expense=exp.where(:claimed_by=>name).where(:expense_type=>type)
             elsif name != "" && type != "" && f_date != "" && t_date != ""
-               	@expense=exp.where(:claimed_by=>name,:expense_type=>type).where(:date=>f_date..t_date).order("created_at DESC")
-      		end
+               	@expense=exp.where(:claimed_by=>name,:expense_type=>type).where(:date=>f_date..t_date)
+       		end
         else
-        	@expen = Expense.new
-        	@expense = Expense.where.not(:claim_status => nil).where.not(:claim_status => "Need Approval").order("created_at DESC").last(20)
+        	@expense = exp.last(20)
 		end
     end
 
- 	def approved_claims
- 		val = params[:commit]
-        s_date = params[:expense][:start_date]
-        e_date = params[:expense][:end_date]
-        @exp = Expense.where(:date => s_date..e_date)
-        if val == "Approved claims"
-            @expense1 = @exp.where(:claim_status => "Approved").order("date ASC")
-        elsif val == "declined claims"
-            @expense2 = @exp.where(:claim_status => "Declined").order("date ASC")
-        else
-            flash[:notice] = "Please try again"
-            redirect_to :action => "claims_report"
-        end
-    end
-
-
-	def claim_index_financier
-		@expense1 = Expense.where(:claim_status => nil).order("date ASC")
-	end
-
-	def approve_claim
+ 	def approve_claim
 		@user = User.new
 	    @user = User.find(session[:user_id]).name
 
@@ -200,28 +187,41 @@ class UsersController < ApplicationController
 			count=[]
 		end
    		count=[]
-		case val
-			when "approve" then
-				exp.map {|i| i.update_columns(:claim_status => "Approved", :approved_amount => i.total, :approved_by => @user)}
-				exp.each {|i| count << i.approved_amount.to_i}
+   		ret_amt=[]
+   		case val
+			when "approve" then	
+				exp.map do |i|
+					if i.expense_type == "Cash in Advance"
+						u = User.find_by(name: i.claimed_by)
+						u.advance_amount=0 if u.advance_amount.nil?
+						u.update_attributes(advance_amount: (u.advance_amount+i.total.to_i))
+					elsif i.expense_type == "Advance return"
+						u = User.find_by(name: i.claimed_by)
+						unless u.advance_amount.nil? || u.advance_amount == 0
+							u.update_attributes(advance_amount: (u.advance_amount-i.total.to_i))
+						end
+					end
+					i.update_columns(:claim_status => "Approved", :approved_amount => i.total, :approved_by => @user)
+				end
+				exp.each do |i|
+					if i.expense_type == "Advance return"
+						ret_amt << i.approved_amount.to_i
+					else
+						count << i.approved_amount.to_i
+					end
+				end
 				tot = Debit.last.total_expenses.nil? ? 0 : Debit.last.total_expenses
-				Debit.last.update_attributes(:total_expenses => tot + count.sum)
-				flash[:notice] = "Claim Approved"
+				amoun = (count.sum) - (ret_amt.sum)
+				Debit.last.update_attributes(:total_expenses => tot + amoun) 
+				flash[:notice] = "Claims Approved"
 				if admin? then redirect_to :action => "index" else redirect_to :action => "claim_index_financier" end
 			when "decline" then
 				exp.map {|i| i.update_columns(:claim_status => "Declined", :approved_amount => "0", :approved_by => @user)}
-				flash[:notice] = "Claim Declined"
-				if admin? then redirect_to :action => "index" else redirect_to :action => "claim_index_financier" end
-			when "approve_on_condition"
-				exp.map {|i| i.update_attributes(:claim_status => "Approved on condition", :approved_by => @user)}
-				exp.each {|i| count << i.approved_amount.to_i}
-				tot = Debit.last.total_expenses.nil? ? 0 : Debit.last.total_expenses
-				Debit.last.update_attributes(:total_expenses => tot + count.sum)
-				flash[:notice] = "Claim approved on condition"
+				flash[:notice] = "Claims Declined"
 				if admin? then redirect_to :action => "index" else redirect_to :action => "claim_index_financier" end
 			when "req_for_approval"
 				exp.map {|i| i.update_columns(:claim_status => "Need Approval")}
-				flash[:notice] = "Added to Waiting claims"
+				flash[:notice] = "Request sent to Admin"
 				redirect_to :action => "claim_index_financier"
 			else
 				flash[:notice] = "Please Select at least one"
@@ -272,8 +272,42 @@ class UsersController < ApplicationController
     end
 
     def debit_history
-        @debit = Debit.all.order('date ASC')
+        @debit = Debit.all.order('created_at DESC')
     end
+
+    def add_expense_category
+    	@expense_category = ExpenseCategory.new
+    	@expense_category1 = ExpenseCategory.all.order("created_at DESC")
+    end
+
+    def get_expense_category
+    	@expense_category = ExpenseCategory.new(expense_category_params)
+    	if @expense_category.save
+    		flash[:notice] = "Expense Category saved"
+    		redirect_to :action => "add_expense_category"
+    	else
+    		flash[:notice] = "Expense Category not saved"
+    		render :add_expense_category
+    	end
+    end
+
+    def add_bank
+    	@bank = Bank.new
+    	@bank1 = Bank.all.order("created_at DESC")
+    end
+
+    def get_bank
+    	@bank = Bank.new(bank_params)
+    	if @bank.save
+    		flash[:notice] = "Bank name saved"
+    		redirect_to :action => "add_bank"
+    	else
+    		flash[:notice] = "Bank name not saved"
+    		render :add_bank
+    	end
+    end
+
+
  
 private
 
@@ -289,5 +323,11 @@ private
 		params.require(:debit).permit!
 	end
 
-end
+	def expense_category_params
+		params.require(:expense_category).permit!
+	end
 
+	def bank_params
+		params.require(:bank).permit!
+	end
+end

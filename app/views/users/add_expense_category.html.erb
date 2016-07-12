@@ -1,0 +1,15 @@
+<table align = "center">
+	<%= form_for([@expense_category], :url=>{:controller=>"users", :action => "get_expense_category"}) do |i|%>
+	<tr><td>Expense Category</td>
+		<td><%= i.text_field :expense_category_list,:required => true %></td>
+		<td><%= i.submit "Add",:class=>"btn btn-info"%></td>
+	</tr>
+	<%end%>
+
+	<% @expense_category1.each do |i| %>
+	<tr>
+		<td><%= i.expense_category_list %></td>
+		<td><!--%= link_to image_tag("/assets/trash1.png", height: '20', width: '20',:class=>"img-circle",:title => 'Delete', :rel => 'tooltip',:onclick=>"if (confirm('Are you sure!!!')) commentDelete(1); return false"),{:action => 'goods_delete', :id => i.id }%--></td>
+	</tr>
+	<%end%>
+</table>

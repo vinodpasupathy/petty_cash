@@ -15,7 +15,7 @@
 
 </head>
 
-  <script type="text/javascript">
+<script type="text/javascript">
 $(function(){
         $("#txtTo").datepicker({ dateFormat: 'yy-mm-dd' });
         $("#txtFrom").datepicker({ dateFormat: 'yy-mm-dd' }).bind("change",function(){
@@ -27,6 +27,41 @@ $(function(){
     });
 
 </script>
+<script>
+var FormStuff = {
+  
+  init: function() {
+    this.applyConditionalRequired();
+    this.bindUIActions();
+  },
+  
+  bindUIActions: function() {
+    $("input[type='radio'], input[type='checkbox']").on("change", this.applyConditionalRequired);
+  },
+  
+  applyConditionalRequired: function() {
+    
+    $(".require-if-active").each(function() {
+      var el = $(this);
+      if ($(el.data("require-pair")).is(":checked")) {
+        el.prop("required", true);
+      } else {
+        el.prop("required", false);
+      }
+    });
+    
+  }
+  
+};
+
+FormStuff.init();
+</script>
+
+
+
+
+
+
 <script>
 var $table = $('table.scroll'),
     $bodyCells = $table.find('tbody tr:first').children(),
@@ -59,8 +94,6 @@ function yesnoCheck() {
 }
 
 </script>
- 
-
 
 <body>
 <!--div data-turbolinks="false">
@@ -95,7 +128,14 @@ function yesnoCheck() {
     <li><%= link_to  users_single_user_index_path do%><i class="fa fa-th-list" aria-hidden="true"> List</i><%end%></li>
     </ul>
   </li>
-                <!--%= link_to "Inactive Users", users_inactive_user_index_path, :class => "btn btn-primary" %-->
+  
+  <li id="menu"><a href=""><i class="fa fa-file-text-o" aria-hidden="true"> Drop down</i></a>
+    <ul>
+    <li><%= link_to  users_add_bank_path do%><i class="fa fa-plus-square" aria-hidden="true"> Bank</i><%end%></li>
+    <li><%= link_to  users_add_expense_category_path do%><i class="fa fa-th-list" aria-hidden="true"> Expense category</i><%end%></li>
+    </ul>
+  </li>
+                  <!--%= link_to "Inactive Users", users_inactive_user_index_path, :class => "btn btn-primary" %-->
                <!--li> <-%= link_to "Claims", users_path%></li-->
  <li id="menu"><a href=""><i class="fa fa-credit-card" aria-hidden="true"> Credit</i></a>
     <ul>              
@@ -123,6 +163,14 @@ function yesnoCheck() {
     <li><%= link_to  users_single_user_index_path do%><i class="fa fa-list" aria-hidden="true"> List</i><%end%></li> 
    </ul>
   </li> 
+
+  <li id="menu"><a href=""><i class="fa fa-file-text-o" aria-hidden="true"> Drop down</i></a>
+    <ul>
+    <li><%= link_to  users_add_bank_path do%><i class="fa fa-plus-square" aria-hidden="true"> Bank</i><%end%></li>
+    <li><%= link_to  users_add_expense_category_path do%><i class="fa fa-th-list" aria-hidden="true"> Expense category</i><%end%></li>
+    </ul>
+  </li>
+  
          <li> <%= link_to  users_claim_history_path do %><i class="fa fa-history" aria-hidden="true"> History</i><%end%></li>
                <!--li> <-%= link_to  users_claims_report_path do %><i class="fa fa-history" aria-hidden="true"> History</i><-%end%></li-->
  <li id="menu"><a href=""> <i class="fa fa-user" aria-hidden="true"> <%=@user%></i></a>

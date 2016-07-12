@@ -26,17 +26,11 @@ Rails.application.routes.draw do
   get 'users/approve_claim'
   post 'users/approve_claim'
 
-  get 'users/approved_claims'
-  post 'users/approved_claims'
-
   get 'users/single_user_index'
   post 'users/single_user_index'
 
   get 'users/show_image'
   post 'users/show_image'
-
-  get 'users/claims_report'
-  post 'users/claims_report'
 
   get 'users/add_debit'
   post 'users/add_debit'
@@ -50,7 +44,20 @@ Rails.application.routes.draw do
   get 'users/debit_edit'
   post'users/debit_edit'
   patch 'users/debit_update'
-   
+
+  get 'users/add_expense_category'
+  post 'users/add_expense_category'
+
+  get 'users/get_expense_category'
+  post 'users/get_expense_category'
+  
+  get 'users/add_bank'
+  post 'users/add_bank'
+
+  get 'users/get_bank'
+  post 'users/get_bank'
+  
+
   resources :users
   
 

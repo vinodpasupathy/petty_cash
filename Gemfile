@@ -8,8 +8,8 @@ gem 'therubyracer'
 gem 'carrierwave'
 gem 'bootstrap-sass', '~> 3.3.6'
 #group :development do
-gem 'rails_12factor', group: :production
-gem 'puma'
+#gem 'rails_12factor', group: :production
+#gem 'puma'
 #  gem 'guard'
 #  gem 'guard-livereload'
 #end
@@ -21,8 +21,8 @@ gem 'jquery-turbolinks'
 gem "font-awesome-rails"
 gem 'rack-pjax'
 # Use sqlite3 as the database for Active Record
-#gem 'sqlite3'
-gem 'pg'
+gem 'sqlite3'
+#gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets

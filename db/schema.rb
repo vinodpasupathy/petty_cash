@@ -11,7 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160628090834) do
+ActiveRecord::Schema.define(version: 20160706100859) do
+
+  create_table "banks", force: :cascade do |t|
+    t.string   "bank_list"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "debits", force: :cascade do |t|
     t.string   "date"
@@ -20,10 +26,17 @@ ActiveRecord::Schema.define(version: 20160628090834) do
     t.string   "bank"
     t.string   "cheque"
     t.string   "amount"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
     t.integer  "total_expenses"
     t.integer  "opening_balance"
+    t.string   "credit_narration"
+  end
+
+  create_table "expense_categories", force: :cascade do |t|
+    t.string   "expense_category_list"
+    t.datetime "created_at",            null: false
+    t.datetime "updated_at",            null: false
   end
 
   create_table "expenses", force: :cascade do |t|
@@ -47,11 +60,12 @@ ActiveRecord::Schema.define(version: 20160628090834) do
     t.string   "name"
     t.string   "password"
     t.string   "email"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
     t.string   "role"
     t.string   "phone"
     t.string   "user_status"
+    t.integer  "advance_amount"
   end
 
 end
