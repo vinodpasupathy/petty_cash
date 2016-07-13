@@ -21,8 +21,10 @@ gem 'jquery-turbolinks'
 gem "font-awesome-rails"
 gem 'rack-pjax'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
-#gem 'pg'
+#gem 'sqlite3'
+gem 'pg'
+gem 'rails_12factor', group: :production
+gem 'puma'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
