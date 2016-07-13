@@ -277,7 +277,7 @@ class UsersController < ApplicationController
 
     def add_expense_category
     	@expense_category = ExpenseCategory.new
-    	@expense_category1 = ExpenseCategory.all.order("created_at DESC")
+    	@expense_category1 = ExpenseCategory.all.order("expense_category_list ASC")
     end
 
     def get_expense_category
@@ -293,7 +293,7 @@ class UsersController < ApplicationController
 
     def add_bank
     	@bank = Bank.new
-    	@bank1 = Bank.all.order("created_at DESC")
+    	@bank1 = Bank.all.order("bank_list ASC")
     end
 
     def get_bank
