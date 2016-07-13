@@ -69,12 +69,12 @@ class UsersController < ApplicationController
 
 	def logout
 		session[:user_id]=nil
-    	redirect_to root_path
+	    	redirect_to root_path
   	end
 
 	def claim_page
-	    @user = User.new
-	    @user = User.find(session[:user_id])
+		@user = User.new
+		@user = User.find(session[:user_id])
 
 		@expense = Expense.new
  		@expense.voucher = params[:file]
@@ -98,7 +98,7 @@ class UsersController < ApplicationController
 
 	def edit_claim
 		@user = User.new
-	    @user = User.find(session[:user_id]).name
+		@user = User.find(session[:user_id]).name
 		
 		@expense = Expense.find params[:id]
 	end
